@@ -2,6 +2,11 @@
 
 ## Building and Installation
 
+You'll need the following dependencies:
+
+* cmake
+* valac
+
 It's recommended to create a clean build environment
 
     mkdir build
