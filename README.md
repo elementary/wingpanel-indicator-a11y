@@ -2,6 +2,13 @@
 
 ## Building and Installation
 
+You'll need the following dependencies:
+
+* cmake
+* libgranite-dev
+* libwingpanel-2.0-dev
+* valac
+
 It's recommended to create a clean build environment
 
     mkdir build
