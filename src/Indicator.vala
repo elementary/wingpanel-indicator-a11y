@@ -33,6 +33,16 @@ public class A11Y.Indicator : Wingpanel.Indicator {
     public override Gtk.Widget get_display_widget () {
         if (panel_icon == null) {
             panel_icon = new Wingpanel.Widgets.OverlayIcon ("preferences-desktop-accessibility-symbolic");
+
+            if (server_type == Wingpanel.IndicatorManager.ServerType.GREETER) {
+                this.visible = true;
+            } else {
+                var visible_settings = new A11ySettings ();
+                this.visible = visible_settings.always_show_universal_access_status;
+                visible_settings.notify.connect (() => {
+                    this.visible = visible_settings.always_show_universal_access_status;
+                });
+            }
         }
 
         return panel_icon;
@@ -41,14 +51,8 @@ public class A11Y.Indicator : Wingpanel.Indicator {
     public override Gtk.Widget? get_widget () {
         if (main_grid == null) {
             if (server_type == Wingpanel.IndicatorManager.ServerType.GREETER) {
-                this.visible = true;
                 main_grid = new GreeterWidget ();
             } else {
-                var visible_settings = new A11ySettings ();
-                this.visible = visible_settings.always_show_universal_access_status;
-                visible_settings.notify.connect (() => {
-                    this.visible = visible_settings.always_show_universal_access_status;
-                });
                 main_grid = new SessionWidget ();
             }
         }
