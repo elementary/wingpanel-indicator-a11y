@@ -1,0 +1,4 @@
+src/GreeterWidget.vala
+src/Indicator.vala
+src/SessionSettings.vala
+src/SessionWidget.vala
