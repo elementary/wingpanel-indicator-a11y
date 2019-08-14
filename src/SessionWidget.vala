@@ -1,5 +1,5 @@
 /*
- * Copyright (c) 2011-2015 Wingpanel Developers (http://launchpad.net/wingpanel)
+ * Copyright (c) 2011-2018 elementary, Inc. (https://elementary.io)
  *
  * This program is free software; you can redistribute it and/or
  * modify it under the terms of the GNU General Public
@@ -18,19 +18,17 @@
  */
 
 public class A11Y.SessionWidget : Gtk.Grid {
-
     public SessionWidget () {
-        var desktop_interface = new DesktopInterface ();
+        /*var desktop_interface = new DesktopInterface ();
 
         var high_contrast = new Wingpanel.Widgets.Switch (_("HighContrast"), false);
         high_contrast.switched.connect (() => {
             desktop_interface.set_high_contrast (high_contrast.get_active ());
         });
         attach (high_contrast, 0, 0, 1, 1);
-        high_contrast.set_active (desktop_interface.get_high_contrast ());
+        high_contrast.active = desktop_interface.get_high_contrast ();
         desktop_interface.notify["gtk-theme"].connect (() => {
-            high_contrast.set_active (desktop_interface.get_high_contrast ());
-        });
+            high_contrast.active = desktop_interface.get_high_contrast ();
+        });*/
     }
-
 }

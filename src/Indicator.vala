@@ -1,5 +1,5 @@
 /*
- * Copyright (c) 2011-2015 Wingpanel Developers (http://launchpad.net/wingpanel)
+ * Copyright (c) 2011-2018 elementary, Inc. (https://elementary.io)
  *
  * This program is free software; you can redistribute it and/or
  * modify it under the terms of the GNU General Public
@@ -18,8 +18,8 @@
  */
 
 public class A11Y.Indicator : Wingpanel.Indicator {
-    Wingpanel.Widgets.OverlayIcon panel_icon;
-    Gtk.Grid main_grid;
+    private Wingpanel.Widgets.OverlayIcon panel_icon;
+    private Gtk.Grid main_grid;
 
     public Wingpanel.IndicatorManager.ServerType server_type { get; construct set; }
 

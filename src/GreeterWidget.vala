@@ -1,5 +1,5 @@
 /*
- * Copyright (c) 2011-2015 Wingpanel Developers (http://launchpad.net/wingpanel)
+ * Copyright (c) 2011-2018 elementary, Inc. (https://elementary.io)
  *
  * This program is free software; you can redistribute it and/or
  * modify it under the terms of the GNU General Public
@@ -18,47 +18,36 @@
  */
 
 public class A11Y.GreeterWidget : Gtk.Grid {
-    KeyFile settings;
-    Gtk.Window keyboard_window;
-    int keyboard_pid;
+    private KeyFile settings;
+    private Gtk.Window keyboard_window;
+    private int keyboard_pid;
 
     public GreeterWidget () {
         settings = new KeyFile ();
 
-        /*
-         * we could load /etc/lightdm/pantheon-greeter.conf but all keys are commented there.
-         * setting defaults instead to prevent needless warnings
-         */
         settings.set_boolean ("greeter", "high-contrast", false);
         settings.set_boolean ("greeter", "onscreen-keyboard", false);
-        /*
-         * try {
-         *     settings.load_from_file ("/etc/lightdm/pantheon-greeter.conf",
-         *                              KeyFileFlags.KEEP_COMMENTS);
-         * } catch (Error e) {
-         *     warning (e.message);
-         * }
-         */
+
         int position = 0;
         var onscreen_keyboard = new Wingpanel.Widgets.Switch (_("Onscreen Keyboard"), false);
         onscreen_keyboard.switched.connect (() => {
-            toggle_keyboard (onscreen_keyboard.get_active ());
+            toggle_keyboard (onscreen_keyboard.active);
         });
         attach (onscreen_keyboard, 0, position++, 1, 1);
         try {
-            onscreen_keyboard.set_active (settings.get_boolean ("greeter", "onscreen-keyboard"));
+            onscreen_keyboard.active = settings.get_boolean ("greeter", "onscreen-keyboard");
         } catch (Error e) {
             warning (e.message);
         }
 
         var high_contrast = new Wingpanel.Widgets.Switch (_("HighContrast"), false);
         high_contrast.switched.connect (() => {
-            Gtk.Settings.get_default ().gtk_theme_name = high_contrast.get_active () ? "HighContrastInverse" : "elementary";
-            settings.set_boolean ("greeter", "high-contrast", high_contrast.get_active ());
+            Gtk.Settings.get_default ().gtk_theme_name = high_contrast.active ? "HighContrastInverse" : "elementary";
+            settings.set_boolean ("greeter", "high-contrast", high_contrast.active);
         });
         attach (high_contrast, 0, position++, 1, 1);
         try {
-            high_contrast.set_active (settings.get_boolean ("greeter", "high-contrast"));
+            high_contrast.active = settings.get_boolean ("greeter", "high-contrast");
         } catch (Error e) {
             warning (e.message);
         }
@@ -66,7 +55,7 @@ public class A11Y.GreeterWidget : Gtk.Grid {
 
     ~GreeterWidget () {
         if (keyboard_pid != 0) {
-            Posix.kill (keyboard_pid, Posix.SIGKILL);
+            Posix.kill (keyboard_pid, Posix.Signal.KILL);
             int status;
             Posix.waitpid (keyboard_pid, out status, 0);
             keyboard_pid = 0;
@@ -99,6 +88,7 @@ public class A11Y.GreeterWidget : Gtk.Grid {
 
         var keyboard_socket = new Gtk.Socket ();
         keyboard_window = new Gtk.Window ();
+        keyboard_window.type_hint = Gdk.WindowTypeHint.DOCK;
         keyboard_window.accept_focus = false;
         keyboard_window.focus_on_map = false;
         keyboard_window.add (keyboard_socket);
@@ -106,10 +96,13 @@ public class A11Y.GreeterWidget : Gtk.Grid {
 
         var screen = Gdk.Screen.get_default ();
         var monitor = screen.get_primary_monitor ();
+        int keyboard_width, keyboard_height;
         Gdk.Rectangle geom;
+
         screen.get_monitor_geometry (monitor, out geom);
-        keyboard_window.move (geom.x, geom.y + geom.height - 200);
-        keyboard_window.resize (geom.width, 200);
+        keyboard_window.resize (geom.width / 2, geom.height / 4);
+        keyboard_window.get_size (out keyboard_width, out keyboard_height);
+        keyboard_window.move (geom.x + keyboard_width / 2, geom.y + (geom.height - keyboard_height));
         keyboard_window.set_keep_above (true);
 
         keyboard_window.show_all ();
