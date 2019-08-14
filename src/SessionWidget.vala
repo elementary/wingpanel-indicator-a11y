@@ -1,5 +1,5 @@
 /*
- * Copyright (c) 2011-2018 elementary, Inc. (https://elementary.io)
+ * Copyright (c) 2011-2019 elementary, Inc. (https://elementary.io)
  *
  * This program is free software; you can redistribute it and/or
  * modify it under the terms of the GNU General Public
@@ -53,11 +53,11 @@ public class A11Y.SessionWidget : Gtk.Grid {
         attach (settings_button, 0, position++, 1, 1);
 
         settings_button.clicked.connect (() => {
-                try {
-                    AppInfo.launch_default_for_uri ("settings://universal-access", null);
-                } catch (Error e) {
-                    warning ("Failed to open universal access settings: %s", e.message);
-                }
-            });
+            try {
+                AppInfo.launch_default_for_uri ("settings://universal-access", null);
+            } catch (Error e) {
+                warning ("Failed to open universal access settings: %s", e.message);
+            }
+        });
     }
 }

@@ -1,5 +1,5 @@
 /*
- * Copyright (c) 2011-2018 elementary, Inc. (https://elementary.io)
+ * Copyright (c) 2011-2019 elementary, Inc. (https://elementary.io)
  *
  * This program is free software; you can redistribute it and/or
  * modify it under the terms of the GNU General Public
@@ -20,6 +20,9 @@
 public class A11Y.GreeterWidget : Gtk.Grid {
     private KeyFile settings;
     private Gtk.Window keyboard_window;
+
+    private int status;
+    private int reader_pid;
     private int keyboard_pid;
 
     public GreeterWidget () {
@@ -49,14 +52,31 @@ public class A11Y.GreeterWidget : Gtk.Grid {
     ~GreeterWidget () {
         if (keyboard_pid != 0) {
             Posix.kill (keyboard_pid, Posix.Signal.KILL);
-            int status;
             Posix.waitpid (keyboard_pid, out status, 0);
             keyboard_pid = 0;
+        }
+
+        if (reader_pid != 0) {
+            Posix.kill (reader_pid, Posix.Signal.KILL);
+            Posix.waitpid (reader_pid, out status, 0);
+            reader_pid = 0;
         }
     }
 
     private void toggle_screen_reader (bool active) {
-        //TODO
+        if (active) {
+            try {
+                string[] argv;
+                Shell.parse_argv ("orca --replace", out argv);
+                Process.spawn_async (null, argv, null, SpawnFlags.SEARCH_PATH, null, out reader_pid);
+            } catch (Error e) {
+                warning (e.message);
+            }
+        } else {
+            Posix.kill (reader_pid, Posix.Signal.KILL);
+            Posix.waitpid (reader_pid, out status, 0);
+            reader_pid = 0;
+        }
     }
 
     private void toggle_keyboard (bool active) {
