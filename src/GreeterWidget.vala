@@ -25,10 +25,15 @@ public class A11Y.GreeterWidget : Gtk.Grid {
     public GreeterWidget () {
         settings = new KeyFile ();
 
-        settings.set_boolean ("greeter", "high-contrast", false);
         settings.set_boolean ("greeter", "onscreen-keyboard", false);
 
         int position = 0;
+        var screen_reader = new Wingpanel.Widgets.Switch (_("Screen Reader"), false);
+        screen_reader.switched.connect (() => {
+            toggle_screen_reader (screen_reader.active);
+        });
+        attach (screen_reader, 0, position++, 1, 1);
+
         var onscreen_keyboard = new Wingpanel.Widgets.Switch (_("Onscreen Keyboard"), false);
         onscreen_keyboard.switched.connect (() => {
             toggle_keyboard (onscreen_keyboard.active);
@@ -36,18 +41,6 @@ public class A11Y.GreeterWidget : Gtk.Grid {
         attach (onscreen_keyboard, 0, position++, 1, 1);
         try {
             onscreen_keyboard.active = settings.get_boolean ("greeter", "onscreen-keyboard");
-        } catch (Error e) {
-            warning (e.message);
-        }
-
-        var high_contrast = new Wingpanel.Widgets.Switch (_("HighContrast"), false);
-        high_contrast.switched.connect (() => {
-            Gtk.Settings.get_default ().gtk_theme_name = high_contrast.active ? "HighContrastInverse" : "elementary";
-            settings.set_boolean ("greeter", "high-contrast", high_contrast.active);
-        });
-        attach (high_contrast, 0, position++, 1, 1);
-        try {
-            high_contrast.active = settings.get_boolean ("greeter", "high-contrast");
         } catch (Error e) {
             warning (e.message);
         }
@@ -60,6 +53,10 @@ public class A11Y.GreeterWidget : Gtk.Grid {
             Posix.waitpid (keyboard_pid, out status, 0);
             keyboard_pid = 0;
         }
+    }
+
+    private void toggle_screen_reader (bool active) {
+
     }
 
     private void toggle_keyboard (bool active) {
