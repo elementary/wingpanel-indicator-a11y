@@ -56,7 +56,7 @@ public class A11Y.GreeterWidget : Gtk.Grid {
     }
 
     private void toggle_screen_reader (bool active) {
-
+        //TODO
     }
 
     private void toggle_keyboard (bool active) {
