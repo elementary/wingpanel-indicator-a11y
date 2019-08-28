@@ -13,7 +13,6 @@ config_in = configure_file(
 files = files(
     'GreeterWidget.vala',
     'Indicator.vala',
-    'SessionSettings.vala',
     'SessionWidget.vala',
 )
 
