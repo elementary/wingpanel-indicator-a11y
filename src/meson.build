@@ -4,7 +4,6 @@ wingpanel_indicatorsdir = wingpanel_dep.get_pkgconfig_variable('indicatorsdir', 
 files = files(
     'GreeterWidget.vala',
     'Indicator.vala',
-    'SessionSettings.vala',
     'SessionWidget.vala',
 )
 

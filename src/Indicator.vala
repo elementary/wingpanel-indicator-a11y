@@ -37,11 +37,8 @@ public class A11Y.Indicator : Wingpanel.Indicator {
             if (server_type == Wingpanel.IndicatorManager.ServerType.GREETER) {
                 this.visible = true;
             } else {
-                var visible_settings = new A11ySettings ();
-                this.visible = visible_settings.always_show_universal_access_status;
-                visible_settings.notify.connect (() => {
-                    this.visible = visible_settings.always_show_universal_access_status;
-                });
+                var visible_settings = new Settings ("org.gnome.desktop.a11y");
+                visible_settings.bind ("always-show-universal-access-status", this, "visible", SettingsBindFlags.DEFAULT);
             }
         }
 

@@ -18,39 +18,28 @@
  */
 
 public class A11Y.SessionWidget : Gtk.Grid {
-    private A11Y.ApplicationsSettings applications_settings;
-    private A11Y.KeyboardSettings keyboard_settings;
+    construct {
+        var screen_reader = new Wingpanel.Widgets.Switch (_("Screen Reader"));
 
-    public SessionWidget () {
-        applications_settings = new A11Y.ApplicationsSettings ();
-        keyboard_settings = new A11Y.KeyboardSettings ();
+        var onscreen_keyboard = new Wingpanel.Widgets.Switch (_("Onscreen Keyboard"));
 
-        int position = 0;
-        var screen_reader = new Wingpanel.Widgets.Switch (_("Screen Reader"), applications_settings.screen_reader_enabled);
-        applications_settings.schema.bind ("screen-reader-enabled", screen_reader, "active", SettingsBindFlags.DEFAULT);
-        attach (screen_reader, 0, position++, 1, 1);
+        var slow_keys = new Wingpanel.Widgets.Switch (_("Slow Keys"));
 
-        var onscreen_keyboard = new Wingpanel.Widgets.Switch (_("Onscreen Keyboard"), applications_settings.screen_keyboard_enabled);
-        applications_settings.schema.bind ("screen-keyboard-enabled", onscreen_keyboard, "active", SettingsBindFlags.DEFAULT);
-        attach (onscreen_keyboard, 0, position++, 1, 1);
+        var bounce_keys = new Wingpanel.Widgets.Switch (_("Bounce Keys"));
 
-        var slow_keys = new Wingpanel.Widgets.Switch (_("Slow Keys"), keyboard_settings.slowkeys_enable);
-        keyboard_settings.schema.bind ("slowkeys-enable", slow_keys, "active", SettingsBindFlags.DEFAULT);
-        attach (slow_keys, 0, position++, 1, 1);
-
-        var bounce_keys = new Wingpanel.Widgets.Switch (_("Bounce Keys"), keyboard_settings.bouncekeys_enable);
-        keyboard_settings.schema.bind ("bouncekeys-enable", bounce_keys, "active", SettingsBindFlags.DEFAULT);
-        attach (bounce_keys, 0, position++, 1, 1);
-
-        var sticky_keys = new Wingpanel.Widgets.Switch (_("Sticky Keys"), keyboard_settings.stickykeys_enable);
-        keyboard_settings.schema.bind ("stickykeys-enable", sticky_keys, "active", SettingsBindFlags.DEFAULT);
-        attach (sticky_keys, 0, position++, 1, 1);
-
-        attach (new Wingpanel.Widgets.Separator (), 0, position++, 1, 1);
+        var sticky_keys = new Wingpanel.Widgets.Switch (_("Sticky Keys"));
 
         var settings_button = new Gtk.ModelButton ();
         settings_button.text = _("Universal Access Settings…");
-        attach (settings_button, 0, position++, 1, 1);
+
+        orientation = Gtk.Orientation.VERTICAL;
+        add (screen_reader);
+        add (onscreen_keyboard);
+        add (slow_keys);
+        add (bounce_keys);
+        add (sticky_keys);
+        add (new Wingpanel.Widgets.Separator ());
+        add (settings_button);
 
         settings_button.clicked.connect (() => {
             try {
@@ -59,5 +48,14 @@ public class A11Y.SessionWidget : Gtk.Grid {
                 warning ("Failed to open universal access settings: %s", e.message);
             }
         });
+
+        var applications_settings = new Settings ("org.gnome.desktop.a11y.applications");
+        applications_settings.bind ("screen-keyboard-enabled", onscreen_keyboard, "active", SettingsBindFlags.DEFAULT);
+        applications_settings.bind ("screen-reader-enabled", screen_reader, "active", SettingsBindFlags.DEFAULT);
+
+        var keyboard_settings = new Settings ("org.gnome.desktop.a11y.keyboard");
+        keyboard_settings.bind ("bouncekeys-enable", bounce_keys, "active", SettingsBindFlags.DEFAULT);
+        keyboard_settings.bind ("slowkeys-enable", slow_keys, "active", SettingsBindFlags.DEFAULT);
+        keyboard_settings.bind ("stickykeys-enable", sticky_keys, "active", SettingsBindFlags.DEFAULT);
     }
 }
