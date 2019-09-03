@@ -1,0 +1,7 @@
+*~
+.debhelper/
+obj-x86_64-linux-gnu/
+wingpanel-indicator-a11y/
+debhelper-build-stamp
+files
+wingpanel-indicator-a11y.substvars
