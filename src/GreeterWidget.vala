@@ -111,8 +111,8 @@ public class A11Y.GreeterWidget : Gtk.Grid {
         keyboard_window.add (keyboard_socket);
         keyboard_socket.add_id (id);
 
-        var screen = Gdk.Display.get_default ();
-        var monitor = screen.get_primary_monitor ();
+        var display = Gdk.Display.get_default ();
+        var monitor = display.get_primary_monitor ();
         int keyboard_width, keyboard_height;
         Gdk.Rectangle geom = monitor.get_geometry ();
 
