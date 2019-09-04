@@ -76,19 +76,16 @@ public class A11Y.SessionWidget : Gtk.Grid {
 
         zoom_default_button.clicked.connect (() => {
             interface_settings.reset ("text-scaling-factor");
-            update_zoom_buttons ();
         });
 
         zoom_in_button.clicked.connect (() => {
             var scaling_factor = interface_settings.get_double ("text-scaling-factor");
             interface_settings.set_double ("text-scaling-factor", scaling_factor + 0.25);
-            update_zoom_buttons ();
         });
 
         zoom_out_button.clicked.connect (() => {
             var scaling_factor = interface_settings.get_double ("text-scaling-factor");
             interface_settings.set_double ("text-scaling-factor", scaling_factor - 0.25);
-            update_zoom_buttons ();
         });
 
         var applications_settings = new Settings ("org.gnome.desktop.a11y.applications");
@@ -96,6 +93,7 @@ public class A11Y.SessionWidget : Gtk.Grid {
         applications_settings.bind ("screen-reader-enabled", screen_reader, "active", SettingsBindFlags.DEFAULT);
 
         interface_settings = new Settings ("org.gnome.desktop.interface");
+        interface_settings.changed["text-scaling-factor"].connect (update_zoom_buttons);
 
         var keyboard_settings = new Settings ("org.gnome.desktop.a11y.keyboard");
         keyboard_settings.bind ("bouncekeys-enable", bounce_keys, "active", SettingsBindFlags.DEFAULT);
