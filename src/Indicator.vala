@@ -47,11 +47,7 @@ public class A11Y.Indicator : Wingpanel.Indicator {
 
     public override Gtk.Widget? get_widget () {
         if (main_grid == null) {
-            if (server_type == Wingpanel.IndicatorManager.ServerType.GREETER) {
-                main_grid = new GreeterWidget ();
-            } else {
-                main_grid = new SessionWidget ();
-            }
+            main_grid = new SessionWidget (server_type);
         }
 
         return main_grid;
