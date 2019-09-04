@@ -32,13 +32,13 @@ public class A11Y.GreeterWidget : Gtk.Grid {
 
         int position = 0;
         var screen_reader = new Wingpanel.Widgets.Switch (_("Screen Reader"), false);
-        screen_reader.switched.connect (() => {
+        screen_reader.notify["active"].connect (() => {
             toggle_screen_reader (screen_reader.active);
         });
         attach (screen_reader, 0, position++, 1, 1);
 
         var onscreen_keyboard = new Wingpanel.Widgets.Switch (_("Onscreen Keyboard"), false);
-        onscreen_keyboard.switched.connect (() => {
+        onscreen_keyboard.notify["active"].connect (() => {
             toggle_keyboard (onscreen_keyboard.active);
         });
         attach (onscreen_keyboard, 0, position++, 1, 1);
@@ -111,12 +111,11 @@ public class A11Y.GreeterWidget : Gtk.Grid {
         keyboard_window.add (keyboard_socket);
         keyboard_socket.add_id (id);
 
-        var screen = Gdk.Screen.get_default ();
+        var screen = Gdk.Display.get_default ();
         var monitor = screen.get_primary_monitor ();
         int keyboard_width, keyboard_height;
-        Gdk.Rectangle geom;
+        Gdk.Rectangle geom = monitor.get_geometry ();
 
-        screen.get_monitor_geometry (monitor, out geom);
         keyboard_window.resize (geom.width / 2, geom.height / 4);
         keyboard_window.get_size (out keyboard_width, out keyboard_height);
         keyboard_window.move (geom.x + keyboard_width / 2, geom.y + (geom.height - keyboard_height));
