@@ -21,7 +21,11 @@ public class A11Y.SessionWidget : Gtk.Grid {
     public Wingpanel.IndicatorManager.ServerType server_type { get; construct; }
 
     private KeyFile settings;
+    private Gtk.Button zoom_default_button;
+    private Gtk.Button zoom_in_button;
+    private Gtk.Button zoom_out_button;
     private Gtk.Window keyboard_window;
+    private Settings interface_settings;
 
     private int status;
     private int reader_pid;
@@ -32,6 +36,25 @@ public class A11Y.SessionWidget : Gtk.Grid {
     }
 
     construct {
+        zoom_out_button = new Gtk.Button.from_icon_name ("zoom-out-symbolic", Gtk.IconSize.MENU);
+        zoom_out_button.tooltip_text = _("Decrease text size");
+
+        zoom_default_button = new Gtk.Button.with_label ("100%");
+        zoom_default_button.tooltip_text = _("Default text size");
+
+        zoom_in_button = new Gtk.Button.from_icon_name ("zoom-in-symbolic", Gtk.IconSize.MENU);
+        zoom_in_button.tooltip_text = _("Increase text size");
+
+        var font_size_grid = new Gtk.Grid ();
+        font_size_grid.column_homogeneous = true;
+        font_size_grid.hexpand = true;
+        font_size_grid.margin = 12;
+        font_size_grid.margin_bottom = font_size_grid.margin_top = 6;
+        font_size_grid.get_style_context ().add_class (Gtk.STYLE_CLASS_LINKED);
+        font_size_grid.add (zoom_out_button);
+        font_size_grid.add (zoom_default_button);
+        font_size_grid.add (zoom_in_button);
+
         var screen_reader = new Wingpanel.Widgets.Switch (_("Screen Reader"));
 
         var onscreen_keyboard = new Wingpanel.Widgets.Switch (_("Onscreen Keyboard"));
@@ -43,6 +66,7 @@ public class A11Y.SessionWidget : Gtk.Grid {
         var sticky_keys = new Wingpanel.Widgets.Switch (_("Sticky Keys"));
 
         orientation = Gtk.Orientation.VERTICAL;
+        add (font_size_grid);
         add (screen_reader);
         add (onscreen_keyboard);
         add (new Wingpanel.Widgets.Separator ());
@@ -86,6 +110,27 @@ public class A11Y.SessionWidget : Gtk.Grid {
                 warning (e.message);
             }
         }
+
+        zoom_default_button.clicked.connect (() => {
+            interface_settings.reset ("text-scaling-factor");
+        });
+
+        zoom_in_button.clicked.connect (() => {
+            var scaling_factor = interface_settings.get_double ("text-scaling-factor");
+            interface_settings.set_double ("text-scaling-factor", scaling_factor + 0.25);
+        });
+
+        zoom_out_button.clicked.connect (() => {
+            var scaling_factor = interface_settings.get_double ("text-scaling-factor");
+            interface_settings.set_double ("text-scaling-factor", scaling_factor - 0.25);
+        });
+
+        var applications_settings = new Settings ("org.gnome.desktop.a11y.applications");
+        applications_settings.bind ("screen-keyboard-enabled", onscreen_keyboard, "active", SettingsBindFlags.DEFAULT);
+        applications_settings.bind ("screen-reader-enabled", screen_reader, "active", SettingsBindFlags.DEFAULT);
+
+        interface_settings = new Settings ("org.gnome.desktop.interface");
+        interface_settings.changed["text-scaling-factor"].connect (update_zoom_buttons);
 
         var keyboard_settings = new Settings ("org.gnome.desktop.a11y.keyboard");
         keyboard_settings.bind ("bouncekeys-enable", bounce_keys, "active", SettingsBindFlags.DEFAULT);
@@ -167,5 +212,12 @@ public class A11Y.SessionWidget : Gtk.Grid {
 
         keyboard_window.show_all ();
         settings.set_boolean ("greeter", "onscreen-keyboard", true);
+    }
+    
+    private void update_zoom_buttons () {
+        var scaling_factor = interface_settings.get_double ("text-scaling-factor");
+        zoom_in_button.sensitive = scaling_factor < 1.5;
+        zoom_out_button.sensitive = scaling_factor > 0.75;
+        zoom_default_button.label = "%.0f%%".printf (scaling_factor * 100);
     }
 }
