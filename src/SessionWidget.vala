@@ -125,10 +125,6 @@ public class A11Y.SessionWidget : Gtk.Grid {
             interface_settings.set_double ("text-scaling-factor", scaling_factor - 0.25);
         });
 
-        var applications_settings = new Settings ("org.gnome.desktop.a11y.applications");
-        applications_settings.bind ("screen-keyboard-enabled", onscreen_keyboard, "active", SettingsBindFlags.DEFAULT);
-        applications_settings.bind ("screen-reader-enabled", screen_reader, "active", SettingsBindFlags.DEFAULT);
-
         interface_settings = new Settings ("org.gnome.desktop.interface");
         interface_settings.changed["text-scaling-factor"].connect (update_zoom_buttons);
 
@@ -213,7 +209,7 @@ public class A11Y.SessionWidget : Gtk.Grid {
         keyboard_window.show_all ();
         settings.set_boolean ("greeter", "onscreen-keyboard", true);
     }
-    
+
     private void update_zoom_buttons () {
         var scaling_factor = interface_settings.get_double ("text-scaling-factor");
         zoom_in_button.sensitive = scaling_factor < 1.5;
