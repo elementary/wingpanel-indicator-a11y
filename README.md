@@ -1,4 +1,5 @@
 # Wingpanel Universal Access Indicator
+[![Translation status](https://l10n.elementary.io/widgets/wingpanel/-/indicator-a11y/svg-badge.svg)](https://l10n.elementary.io/engage/wingpanel/?utm_source=widget)
 
 ## Building and Installation
 
