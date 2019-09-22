@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: a11y-indicator\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-06-26 22:46+0200\n"
-"PO-Revision-Date: 2019-09-07 19:23+0000\n"
-"Last-Translator: Daniel <riesp@protonmail.com>\n"
+"PO-Revision-Date: 2019-09-23 16:24+0000\n"
+"Last-Translator: Daniel R. <riesp@pm.me>\n"
 "Language-Team: Galician <https://l10n.elementary.io/projects/wingpanel/"
 "indicator-a11y/gl/>\n"
 "Language: gl\n"
@@ -25,7 +25,7 @@ msgstr "Teclado en pantalla"
 
 #: src/GreeterWidget.vala:54 src/SessionWidget.vala:25
 msgid "HighContrast"
-msgstr ""
+msgstr "Contraste alto"
 
 #: src/Indicator.vala:28
 msgid "Accessibility"
