@@ -8,26 +8,29 @@ msgstr ""
 "Project-Id-Version: a11y-indicator\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-06-26 22:46+0200\n"
-"PO-Revision-Date: 2019-06-26 22:46+0200\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2019-10-04 02:23+0000\n"
+"Last-Translator: colindemian <colindemian@outlook.com>\n"
+"Language-Team: Chinese (Simplified) <https://l10n.elementary.io/projects/"
+"wingpanel/indicator-a11y/zh_Hans/>\n"
 "Language: zh_CN\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=ASCII\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 3.7.1\n"
 
 #: src/GreeterWidget.vala:43
 msgid "Onscreen Keyboard"
-msgstr ""
+msgstr "屏幕键盘"
 
 #: src/GreeterWidget.vala:54 src/SessionWidget.vala:25
 msgid "HighContrast"
-msgstr ""
+msgstr "高对比度"
 
 #: src/Indicator.vala:28
 msgid "Accessibility"
-msgstr ""
+msgstr "通用辅助"
 
 #: src/Indicator.vala:29
 msgid "Accessibility indicator"
-msgstr ""
+msgstr "辅助功能指示器"
