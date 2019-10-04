@@ -8,27 +8,29 @@ msgstr ""
 "Project-Id-Version: a11y-indicator\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-06-26 22:46+0200\n"
-"PO-Revision-Date: 2019-06-26 22:46+0200\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2019-10-05 10:23+0000\n"
+"Last-Translator: Nathan <bonnemainsnathan@gmail.com>\n"
+"Language-Team: French <https://l10n.elementary.io/projects/wingpanel/"
+"indicator-a11y/fr/>\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=ASCII\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: Weblate 3.7.1\n"
 
 #: src/GreeterWidget.vala:43
 msgid "Onscreen Keyboard"
-msgstr ""
+msgstr "Clavier visuel"
 
 #: src/GreeterWidget.vala:54 src/SessionWidget.vala:25
 msgid "HighContrast"
-msgstr ""
+msgstr "Contraste élevé"
 
 #: src/Indicator.vala:28
 msgid "Accessibility"
-msgstr ""
+msgstr "Accessibilité"
 
 #: src/Indicator.vala:29
 msgid "Accessibility indicator"
-msgstr ""
+msgstr "Indicateur d'accessibilité"
