@@ -1,6 +1,8 @@
 # Wingpanel Universal Access Indicator
 [![Translation status](https://l10n.elementary.io/widgets/wingpanel/-/indicator-a11y/svg-badge.svg)](https://l10n.elementary.io/engage/wingpanel/?utm_source=widget)
 
+![Screenshot](data/screenshot.png?raw=true)
+
 ## Building and Installation
 
 You'll need the following dependencies:
