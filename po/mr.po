@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: a11y-indicator\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-11-06 18:03+0000\n"
-"PO-Revision-Date: 2019-09-07 19:23+0000\n"
+"PO-Revision-Date: 2019-11-09 16:24+0000\n"
 "Last-Translator: Prachi Joshi <josprachi@yahoo.com>\n"
 "Language-Team: Marathi <https://l10n.elementary.io/projects/wingpanel/"
 "indicator-a11y/mr/>\n"
@@ -20,9 +20,8 @@ msgstr ""
 "X-Generator: Weblate 3.7.1\n"
 
 #: src/GreeterWidget.vala:34 src/SessionWidget.vala:46
-#, fuzzy
 msgid "Screen Reader"
-msgstr "ऑनस्क्रीन कीबोर्ड"
+msgstr "स्क्रीन रीडर"
 
 #: src/GreeterWidget.vala:40 src/SessionWidget.vala:48
 msgid "Onscreen Keyboard"
@@ -38,31 +37,31 @@ msgstr "प्रवेशयोग्यता सूचक"
 
 #: src/SessionWidget.vala:28
 msgid "Decrease text size"
-msgstr ""
+msgstr "मजकूर आकार कमी करा"
 
 #: src/SessionWidget.vala:31
 msgid "Default text size"
-msgstr ""
+msgstr "डीफॉल्ट मजकूर आकार"
 
 #: src/SessionWidget.vala:34
 msgid "Increase text size"
-msgstr ""
+msgstr "मजकूर आकार वाढवा"
 
 #: src/SessionWidget.vala:50
 msgid "Slow Keys"
-msgstr ""
+msgstr "स्लो की"
 
 #: src/SessionWidget.vala:52
 msgid "Bounce Keys"
-msgstr ""
+msgstr "बाउन्स की"
 
 #: src/SessionWidget.vala:54
 msgid "Sticky Keys"
-msgstr ""
+msgstr "चिकट की"
 
 #: src/SessionWidget.vala:57
 msgid "Universal Access Settings…"
-msgstr ""
+msgstr "सार्वत्रिक प्रवेश सेटिंग्ज …"
 
 #~ msgid "HighContrast"
 #~ msgstr "हायकॉन्ट्रास्ट"
