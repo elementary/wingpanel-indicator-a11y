@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: a11y-indicator\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-11-06 18:03+0000\n"
-"PO-Revision-Date: 2019-09-09 22:23+0000\n"
-"Last-Translator: Adolfo Jayme Barrientos <fitojb@ubuntu.com>\n"
+"PO-Revision-Date: 2019-11-11 12:25+0000\n"
+"Last-Translator: Daniel R. <riesp@pm.me>\n"
 "Language-Team: Spanish <https://l10n.elementary.io/projects/wingpanel/"
 "indicator-a11y/es/>\n"
 "Language: es\n"
@@ -20,9 +20,8 @@ msgstr ""
 "X-Generator: Weblate 3.7.1\n"
 
 #: src/GreeterWidget.vala:34 src/SessionWidget.vala:46
-#, fuzzy
 msgid "Screen Reader"
-msgstr "Teclado en pantalla"
+msgstr "Lector de pantalla"
 
 #: src/GreeterWidget.vala:40 src/SessionWidget.vala:48
 msgid "Onscreen Keyboard"
@@ -38,19 +37,19 @@ msgstr "Indicador de accesibilidad"
 
 #: src/SessionWidget.vala:28
 msgid "Decrease text size"
-msgstr ""
+msgstr "Disminuir el tamaño del texto"
 
 #: src/SessionWidget.vala:31
 msgid "Default text size"
-msgstr ""
+msgstr "Tamaño de texto por defecto"
 
 #: src/SessionWidget.vala:34
 msgid "Increase text size"
-msgstr ""
+msgstr "Aumentar el tamaño del texto"
 
 #: src/SessionWidget.vala:50
 msgid "Slow Keys"
-msgstr ""
+msgstr "Teclas lentas"
 
 #: src/SessionWidget.vala:52
 msgid "Bounce Keys"
@@ -62,7 +61,7 @@ msgstr ""
 
 #: src/SessionWidget.vala:57
 msgid "Universal Access Settings…"
-msgstr ""
+msgstr "Configuración de acceso universal…"
 
 #~ msgid "HighContrast"
 #~ msgstr "Contraste alto"
