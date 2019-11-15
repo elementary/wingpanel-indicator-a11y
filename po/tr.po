@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: a11y-indicator\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-11-06 18:03+0000\n"
-"PO-Revision-Date: 2019-09-07 19:23+0000\n"
+"PO-Revision-Date: 2019-11-16 17:25+0000\n"
 "Last-Translator: Ozgur Baskin <bebeto_baskin@yahoo.com>\n"
 "Language-Team: Turkish <https://l10n.elementary.io/projects/wingpanel/"
 "indicator-a11y/tr/>\n"
@@ -20,9 +20,8 @@ msgstr ""
 "X-Generator: Weblate 3.7.1\n"
 
 #: src/GreeterWidget.vala:34 src/SessionWidget.vala:46
-#, fuzzy
 msgid "Screen Reader"
-msgstr "Ekran Klavyesi"
+msgstr "Ekran Okuyucusu"
 
 #: src/GreeterWidget.vala:40 src/SessionWidget.vala:48
 msgid "Onscreen Keyboard"
@@ -38,31 +37,31 @@ msgstr "Erişilebilirlik göstergesi"
 
 #: src/SessionWidget.vala:28
 msgid "Decrease text size"
-msgstr ""
+msgstr "Metin boyutunu küçült"
 
 #: src/SessionWidget.vala:31
 msgid "Default text size"
-msgstr ""
+msgstr "Varsayılan metin boyutunu"
 
 #: src/SessionWidget.vala:34
 msgid "Increase text size"
-msgstr ""
+msgstr "Metin boyutunu büyüt"
 
 #: src/SessionWidget.vala:50
 msgid "Slow Keys"
-msgstr ""
+msgstr "Yavaş Tuşlar"
 
 #: src/SessionWidget.vala:52
 msgid "Bounce Keys"
-msgstr ""
+msgstr "Sıçrama Tuşları"
 
 #: src/SessionWidget.vala:54
 msgid "Sticky Keys"
-msgstr ""
+msgstr "Yapışkan Tuşlar"
 
 #: src/SessionWidget.vala:57
 msgid "Universal Access Settings…"
-msgstr ""
+msgstr "Evrensel Erişim Ayarları…"
 
 #~ msgid "HighContrast"
 #~ msgstr "Yüksek Karşıtlık"
