@@ -2,56 +2,58 @@ msgid ""
 msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-11-06 18:03+0000\n"
-"PO-Revision-Date: 2019-06-26 18:53+0200\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2020-02-23 00:09+0000\n"
+"Last-Translator: gkkulik <g.kulik@o2.pl>\n"
+"Language-Team: Silesian <https://l10n.elementary.io/projects/wingpanel/"
+"indicator-a11y/szl/>\n"
 "Language: szl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
-"|| n%100>=20) ? 1 : 2);\n"
+"Plural-Forms: nplurals=3; plural=n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
+"|| n%100>=20) ? 1 : 2;\n"
+"X-Generator: Weblate 3.9.1\n"
 
 #: src/GreeterWidget.vala:34 src/SessionWidget.vala:46
 msgid "Screen Reader"
-msgstr ""
+msgstr "Czytocz ekranowy"
 
 #: src/GreeterWidget.vala:40 src/SessionWidget.vala:48
 msgid "Onscreen Keyboard"
-msgstr ""
+msgstr "Tastatura na ekranie"
 
 #: src/Indicator.vala:28
 msgid "Accessibility"
-msgstr ""
+msgstr "Dostympność"
 
 #: src/Indicator.vala:29
 msgid "Accessibility indicator"
-msgstr ""
+msgstr "Skaźnik dostympności"
 
 #: src/SessionWidget.vala:28
 msgid "Decrease text size"
-msgstr ""
+msgstr "Zmyńszynie srogości tekstu"
 
 #: src/SessionWidget.vala:31
 msgid "Default text size"
-msgstr ""
+msgstr "Wychodno srogość tekstu"
 
 #: src/SessionWidget.vala:34
 msgid "Increase text size"
-msgstr ""
+msgstr "Zwiynkszynie srogości tekstu"
 
 #: src/SessionWidget.vala:50
 msgid "Slow Keys"
-msgstr ""
+msgstr "Powolne knefle"
 
 #: src/SessionWidget.vala:52
 msgid "Bounce Keys"
-msgstr ""
+msgstr "Knefle ôdskoku"
 
 #: src/SessionWidget.vala:54
 msgid "Sticky Keys"
-msgstr ""
+msgstr "Trwałe knefle"
 
 #: src/SessionWidget.vala:57
 msgid "Universal Access Settings…"
-msgstr ""
+msgstr "Sztelōnki unwersalngeo dostympu…"
