@@ -7,21 +7,21 @@ msgid ""
 msgstr ""
 "Project-Id-Version: a11y-indicator\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-06-26 22:46+0200\n"
+"POT-Creation-Date: 2019-11-06 18:03+0000\n"
 "PO-Revision-Date: 2019-06-26 22:46+0200\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
 "Language: th\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=ASCII\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: src/GreeterWidget.vala:43
-msgid "Onscreen Keyboard"
+#: src/GreeterWidget.vala:34 src/SessionWidget.vala:46
+msgid "Screen Reader"
 msgstr ""
 
-#: src/GreeterWidget.vala:54 src/SessionWidget.vala:25
-msgid "HighContrast"
+#: src/GreeterWidget.vala:40 src/SessionWidget.vala:48
+msgid "Onscreen Keyboard"
 msgstr ""
 
 #: src/Indicator.vala:28
@@ -30,4 +30,32 @@ msgstr ""
 
 #: src/Indicator.vala:29
 msgid "Accessibility indicator"
+msgstr ""
+
+#: src/SessionWidget.vala:28
+msgid "Decrease text size"
+msgstr ""
+
+#: src/SessionWidget.vala:31
+msgid "Default text size"
+msgstr ""
+
+#: src/SessionWidget.vala:34
+msgid "Increase text size"
+msgstr ""
+
+#: src/SessionWidget.vala:50
+msgid "Slow Keys"
+msgstr ""
+
+#: src/SessionWidget.vala:52
+msgid "Bounce Keys"
+msgstr ""
+
+#: src/SessionWidget.vala:54
+msgid "Sticky Keys"
+msgstr ""
+
+#: src/SessionWidget.vala:57
+msgid "Universal Access Settings…"
 msgstr ""

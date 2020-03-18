@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: a11y-indicator\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-06-26 22:46+0200\n"
-"PO-Revision-Date: 2019-09-16 16:23+0000\n"
+"POT-Creation-Date: 2019-11-06 18:03+0000\n"
+"PO-Revision-Date: 2019-12-04 21:26+0000\n"
 "Last-Translator: Jiri Grönroos <jiri.gronroos@iki.fi>\n"
 "Language-Team: Finnish <https://l10n.elementary.io/projects/wingpanel/"
 "indicator-a11y/fi/>\n"
@@ -19,13 +19,13 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Weblate 3.7.1\n"
 
-#: src/GreeterWidget.vala:43
+#: src/GreeterWidget.vala:34 src/SessionWidget.vala:46
+msgid "Screen Reader"
+msgstr "Näytönlukija"
+
+#: src/GreeterWidget.vala:40 src/SessionWidget.vala:48
 msgid "Onscreen Keyboard"
 msgstr "Näyttönäppäimistö"
-
-#: src/GreeterWidget.vala:54 src/SessionWidget.vala:25
-msgid "HighContrast"
-msgstr ""
 
 #: src/Indicator.vala:28
 msgid "Accessibility"
@@ -34,3 +34,31 @@ msgstr "Saavutettavuus"
 #: src/Indicator.vala:29
 msgid "Accessibility indicator"
 msgstr "Saavutettavuusilmaisin"
+
+#: src/SessionWidget.vala:28
+msgid "Decrease text size"
+msgstr "Pienennä tekstin kokoa"
+
+#: src/SessionWidget.vala:31
+msgid "Default text size"
+msgstr "Tekstin oletuskoko"
+
+#: src/SessionWidget.vala:34
+msgid "Increase text size"
+msgstr "Suurenna tekstin kokoa"
+
+#: src/SessionWidget.vala:50
+msgid "Slow Keys"
+msgstr "Hitaat näppäimet"
+
+#: src/SessionWidget.vala:52
+msgid "Bounce Keys"
+msgstr "Kimmonäppäimet"
+
+#: src/SessionWidget.vala:54
+msgid "Sticky Keys"
+msgstr "Pohjaan jäävät näppäimet"
+
+#: src/SessionWidget.vala:57
+msgid "Universal Access Settings…"
+msgstr "Esteettömyysasetukset…"

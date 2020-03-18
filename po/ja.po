@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: a11y-indicator\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-06-26 22:46+0200\n"
-"PO-Revision-Date: 2019-09-07 19:23+0000\n"
+"POT-Creation-Date: 2019-11-06 18:03+0000\n"
+"PO-Revision-Date: 2019-11-09 16:24+0000\n"
 "Last-Translator: Ryo Nakano <ryonakaknock3@gmail.com>\n"
 "Language-Team: Japanese <https://l10n.elementary.io/projects/wingpanel/"
 "indicator-a11y/ja/>\n"
@@ -19,13 +19,13 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Weblate 3.7.1\n"
 
-#: src/GreeterWidget.vala:43
+#: src/GreeterWidget.vala:34 src/SessionWidget.vala:46
+msgid "Screen Reader"
+msgstr "スクリーンリーダー"
+
+#: src/GreeterWidget.vala:40 src/SessionWidget.vala:48
 msgid "Onscreen Keyboard"
 msgstr "オンスクリーンキーボード"
-
-#: src/GreeterWidget.vala:54 src/SessionWidget.vala:25
-msgid "HighContrast"
-msgstr "ハイコントラスト"
 
 #: src/Indicator.vala:28
 msgid "Accessibility"
@@ -34,3 +34,34 @@ msgstr "アクセシビリティー"
 #: src/Indicator.vala:29
 msgid "Accessibility indicator"
 msgstr "アクセシビリティーインジケーター"
+
+#: src/SessionWidget.vala:28
+msgid "Decrease text size"
+msgstr "テキストサイズを縮小"
+
+#: src/SessionWidget.vala:31
+msgid "Default text size"
+msgstr "デフォルトのテキストサイズ"
+
+#: src/SessionWidget.vala:34
+msgid "Increase text size"
+msgstr "テキストサイズを拡大"
+
+#: src/SessionWidget.vala:50
+msgid "Slow Keys"
+msgstr "スローキー"
+
+#: src/SessionWidget.vala:52
+msgid "Bounce Keys"
+msgstr "バウンスキー"
+
+#: src/SessionWidget.vala:54
+msgid "Sticky Keys"
+msgstr "固定キー"
+
+#: src/SessionWidget.vala:57
+msgid "Universal Access Settings…"
+msgstr "ユニバーサルアクセスの設定…"
+
+#~ msgid "HighContrast"
+#~ msgstr "ハイコントラスト"
