@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: a11y-indicator\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-11-06 18:03+0000\n"
-"PO-Revision-Date: 2020-05-29 14:11+0000\n"
+"PO-Revision-Date: 2020-06-07 20:11+0000\n"
 "Last-Translator: p-bo <pavel.borecki@gmail.com>\n"
 "Language-Team: Czech <https://l10n.elementary.io/projects/wingpanel/"
 "indicator-a11y/cs/>\n"
@@ -49,15 +49,15 @@ msgstr "Zvětšit velikost textu"
 
 #: src/SessionWidget.vala:50
 msgid "Slow Keys"
-msgstr "Pomalé klávesy"
+msgstr "Prevence nechtěných stisků kláves"
 
 #: src/SessionWidget.vala:52
 msgid "Bounce Keys"
-msgstr "Odrážející se klávesy"
+msgstr "Prodleva mezi opak. stisky kláves"
 
 #: src/SessionWidget.vala:54
 msgid "Sticky Keys"
-msgstr "Lepivé klávesy"
+msgstr "Klávesové zkratky jedním prstem"
 
 #: src/SessionWidget.vala:57
 msgid "Universal Access Settings…"
