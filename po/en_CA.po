@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: a11y-indicator\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-11-06 18:03+0000\n"
+"POT-Creation-Date: 2020-07-14 15:50+0000\n"
 "PO-Revision-Date: 2019-06-26 22:46+0200\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
@@ -25,14 +25,6 @@ msgstr "Onscreen Keyboard"
 #: src/GreeterWidget.vala:40 src/SessionWidget.vala:48
 msgid "Onscreen Keyboard"
 msgstr "Onscreen Keyboard"
-
-#: src/Indicator.vala:28
-msgid "Accessibility"
-msgstr "Accessibility"
-
-#: src/Indicator.vala:29
-msgid "Accessibility indicator"
-msgstr "Accessibility indicator"
 
 #: src/SessionWidget.vala:28
 msgid "Decrease text size"
@@ -61,6 +53,12 @@ msgstr ""
 #: src/SessionWidget.vala:57
 msgid "Universal Access Settings…"
 msgstr ""
+
+#~ msgid "Accessibility"
+#~ msgstr "Accessibility"
+
+#~ msgid "Accessibility indicator"
+#~ msgstr "Accessibility indicator"
 
 #~ msgid "HighContrast"
 #~ msgstr "HighContrast"

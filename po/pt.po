@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: a11y-indicator\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-11-06 18:03+0000\n"
+"POT-Creation-Date: 2020-07-14 15:50+0000\n"
 "PO-Revision-Date: 2019-11-09 16:24+0000\n"
 "Last-Translator: Hugo Carvalho <hugokarvalho@hotmail.com>\n"
 "Language-Team: Portuguese <https://l10n.elementary.io/projects/wingpanel/"
@@ -26,14 +26,6 @@ msgstr "Leitor de ecrã"
 #: src/GreeterWidget.vala:40 src/SessionWidget.vala:48
 msgid "Onscreen Keyboard"
 msgstr "Teclado no ecrã"
-
-#: src/Indicator.vala:28
-msgid "Accessibility"
-msgstr "Acessibilidade"
-
-#: src/Indicator.vala:29
-msgid "Accessibility indicator"
-msgstr "Indicador de acessibilidade"
 
 #: src/SessionWidget.vala:28
 msgid "Decrease text size"
@@ -62,6 +54,12 @@ msgstr "Teclas Presas"
 #: src/SessionWidget.vala:57
 msgid "Universal Access Settings…"
 msgstr "Definições de acesso universal…"
+
+#~ msgid "Accessibility"
+#~ msgstr "Acessibilidade"
+
+#~ msgid "Accessibility indicator"
+#~ msgstr "Indicador de acessibilidade"
 
 #~ msgid "HighContrast"
 #~ msgstr "AltoContraste"
