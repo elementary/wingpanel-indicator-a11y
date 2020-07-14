@@ -25,8 +25,6 @@ public class A11Y.Indicator : Wingpanel.Indicator {
 
     public Indicator (Wingpanel.IndicatorManager.ServerType indicator_server_type) {
         Object (code_name: "a11y",
-                display_name: _("Accessibility"),
-                description: _("Accessibility indicator"),
                 server_type: indicator_server_type);
     }
 
