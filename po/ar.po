@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: a11y-indicator\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-07-14 15:50+0000\n"
+"POT-Creation-Date: 2020-08-25 12:25+0000\n"
 "PO-Revision-Date: 2020-05-16 04:10+0000\n"
 "Last-Translator: nasserbinlaboun <nasser1990com@gmail.com>\n"
 "Language-Team: Arabic <https://l10n.elementary.io/projects/wingpanel/"
@@ -52,7 +52,11 @@ msgstr "القفز بين الازرار"
 msgid "Sticky Keys"
 msgstr "ثبات المفاتيح"
 
-#: src/SessionWidget.vala:57
+#: src/SessionWidget.vala:56
+msgid "Hover Click"
+msgstr ""
+
+#: src/SessionWidget.vala:59
 msgid "Universal Access Settings…"
 msgstr "إعدادات الوصول الموحدة…"
 
