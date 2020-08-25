@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: a11y-indicator\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-08-25 12:25+0000\n"
-"PO-Revision-Date: 2019-11-09 16:24+0000\n"
-"Last-Translator: Corentin Noël <corentin@elementary.io>\n"
+"PO-Revision-Date: 2020-08-26 21:58+0000\n"
+"Last-Translator: Nathan <bonnemainsnathan@gmail.com>\n"
 "Language-Team: French <https://l10n.elementary.io/projects/wingpanel/"
 "indicator-a11y/fr/>\n"
 "Language: fr\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 3.7.1\n"
+"X-Generator: Weblate 3.9.1\n"
 
 #: src/GreeterWidget.vala:34 src/SessionWidget.vala:46
 msgid "Screen Reader"
@@ -53,7 +53,7 @@ msgstr "Touches rémanentes"
 
 #: src/SessionWidget.vala:56
 msgid "Hover Click"
-msgstr ""
+msgstr "Clic au survol"
 
 #: src/SessionWidget.vala:59
 msgid "Universal Access Settings…"
