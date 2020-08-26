@@ -53,7 +53,7 @@ public class A11Y.SessionWidget : Gtk.Grid {
 
         var sticky_keys = new Wingpanel.Widgets.Switch (_("Sticky Keys"));
 
-        var hover_click = new Wingpanel.Widgets.Switch (_("Hover Click"));
+        var hover_click = new Wingpanel.Widgets.Switch (_("Dwell Click"));
 
         var settings_button = new Gtk.ModelButton ();
         settings_button.text = _("Universal Access Settings…");
