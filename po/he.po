@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: a11y-indicator\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-08-26 21:59+0000\n"
-"PO-Revision-Date: 2020-08-26 21:58+0000\n"
+"PO-Revision-Date: 2020-10-04 13:14+0000\n"
 "Last-Translator: Yaron Shahrabani <sh.yaron@gmail.com>\n"
 "Language-Team: Hebrew <https://l10n.elementary.io/projects/wingpanel/"
 "indicator-a11y/he/>\n"
@@ -52,10 +52,8 @@ msgid "Sticky Keys"
 msgstr "מקשים דביקים"
 
 #: src/SessionWidget.vala:56
-#, fuzzy
-#| msgid "Hover Click"
 msgid "Dwell Click"
-msgstr "לחיצה בריחוף"
+msgstr "לחיצה מושהית"
 
 #: src/SessionWidget.vala:59
 msgid "Universal Access Settings…"
