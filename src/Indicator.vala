@@ -24,7 +24,7 @@ public class A11Y.Indicator : Wingpanel.Indicator {
     public Wingpanel.IndicatorManager.ServerType server_type { get; construct set; }
 
     public Indicator (Wingpanel.IndicatorManager.ServerType indicator_server_type) {
-        Object (code_name: "a11y",
+        Object (code_name: Wingpanel.Indicator.ACCESSIBILITY,
                 server_type: indicator_server_type);
     }
 
