@@ -7,56 +7,54 @@ msgid ""
 msgstr ""
 "Project-Id-Version: a11y-indicator\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-11-06 18:03+0000\n"
-"PO-Revision-Date: 2019-06-26 22:46+0200\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"POT-Creation-Date: 2020-08-26 21:59+0000\n"
+"PO-Revision-Date: 2020-10-28 01:15+0000\n"
+"Last-Translator: Fabio Zaramella <fabiozaramella@hotmail.it>\n"
+"Language-Team: Italian <https://l10n.elementary.io/projects/wingpanel/"
+"indicator-a11y/it/>\n"
 "Language: it\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 3.9.1\n"
 
 #: src/GreeterWidget.vala:34 src/SessionWidget.vala:46
 msgid "Screen Reader"
-msgstr ""
+msgstr "Lettore di schermo"
 
 #: src/GreeterWidget.vala:40 src/SessionWidget.vala:48
 msgid "Onscreen Keyboard"
-msgstr ""
-
-#: src/Indicator.vala:28
-msgid "Accessibility"
-msgstr ""
-
-#: src/Indicator.vala:29
-msgid "Accessibility indicator"
-msgstr ""
+msgstr "Tastiera a schermo"
 
 #: src/SessionWidget.vala:28
 msgid "Decrease text size"
-msgstr ""
+msgstr "Riduci dimensione del testo"
 
 #: src/SessionWidget.vala:31
 msgid "Default text size"
-msgstr ""
+msgstr "Dimensione del testo predefinita"
 
 #: src/SessionWidget.vala:34
 msgid "Increase text size"
-msgstr ""
+msgstr "Aumenta dimensione del testo"
 
 #: src/SessionWidget.vala:50
 msgid "Slow Keys"
-msgstr ""
+msgstr "Tasti lenti"
 
 #: src/SessionWidget.vala:52
 msgid "Bounce Keys"
-msgstr ""
+msgstr "Tasti di rimbalzo"
 
 #: src/SessionWidget.vala:54
 msgid "Sticky Keys"
-msgstr ""
+msgstr "Tasti permanenti"
 
-#: src/SessionWidget.vala:57
+#: src/SessionWidget.vala:56
+msgid "Dwell Click"
+msgstr "Clic automatico"
+
+#: src/SessionWidget.vala:59
 msgid "Universal Access Settings…"
-msgstr ""
+msgstr "Impostazioni di accesso universale…"

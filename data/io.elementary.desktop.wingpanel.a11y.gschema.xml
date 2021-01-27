@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schemalist>
+  <schema path="/io/elementary/desktop/wingpanel/a11y/" id="io.elementary.desktop.wingpanel.a11y">
+    <key type="b" name="show-indicator">
+      <default>false</default>
+      <summary>Whether to show Wingpanel Universal Access Indicator</summary>
+    </key>
+  </schema>
+</schemalist>

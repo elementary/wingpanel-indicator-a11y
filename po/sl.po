@@ -7,17 +7,17 @@ msgid ""
 msgstr ""
 "Project-Id-Version: a11y-indicator\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-11-06 18:03+0000\n"
-"PO-Revision-Date: 2020-01-05 23:07+0000\n"
-"Last-Translator: Marko <marko.dolar@gmail.com>\n"
+"POT-Creation-Date: 2020-08-26 21:59+0000\n"
+"PO-Revision-Date: 2020-04-05 13:10+0000\n"
+"Last-Translator: Jernej Virag <jernej@virag.si>\n"
 "Language-Team: Slovenian <https://l10n.elementary.io/projects/wingpanel/"
 "indicator-a11y/sl/>\n"
 "Language: sl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=4; plural=n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || "
-"n%100==4 ? 2 : 3;\n"
+"Plural-Forms: nplurals=4; plural=n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || n"
+"%100==4 ? 2 : 3;\n"
 "X-Generator: Weblate 3.9.1\n"
 
 #: src/GreeterWidget.vala:34 src/SessionWidget.vala:46
@@ -27,14 +27,6 @@ msgstr "Bralnik zaslona"
 #: src/GreeterWidget.vala:40 src/SessionWidget.vala:48
 msgid "Onscreen Keyboard"
 msgstr "Zaslonska tipkovnica"
-
-#: src/Indicator.vala:28
-msgid "Accessibility"
-msgstr "Dostopnost"
-
-#: src/Indicator.vala:29
-msgid "Accessibility indicator"
-msgstr "Indikator dostopnosti"
 
 #: src/SessionWidget.vala:28
 msgid "Decrease text size"
@@ -50,16 +42,26 @@ msgstr "Povečaj velikost besedila"
 
 #: src/SessionWidget.vala:50
 msgid "Slow Keys"
-msgstr ""
+msgstr "Zamik med pritiski tipk"
 
 #: src/SessionWidget.vala:52
 msgid "Bounce Keys"
-msgstr ""
+msgstr "Ignoriraj hitre zaporedne pritiske tipk"
 
 #: src/SessionWidget.vala:54
 msgid "Sticky Keys"
+msgstr "Lepljive tipke"
+
+#: src/SessionWidget.vala:56
+msgid "Dwell Click"
 msgstr ""
 
-#: src/SessionWidget.vala:57
+#: src/SessionWidget.vala:59
 msgid "Universal Access Settings…"
-msgstr ""
+msgstr "Nastavitve univerzalnega dostopa…"
+
+#~ msgid "Accessibility"
+#~ msgstr "Dostopnost"
+
+#~ msgid "Accessibility indicator"
+#~ msgstr "Indikator dostopnosti"

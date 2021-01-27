@@ -7,9 +7,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: a11y-indicator\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-11-06 18:03+0000\n"
-"PO-Revision-Date: 2019-11-16 17:25+0000\n"
-"Last-Translator: Daniel R. <riesp@pm.me>\n"
+"POT-Creation-Date: 2020-08-26 21:59+0000\n"
+"PO-Revision-Date: 2020-09-03 18:13+0000\n"
+"Last-Translator: Adolfo Jayme Barrientos <fitojb@ubuntu.com>\n"
 "Language-Team: Spanish <https://l10n.elementary.io/projects/wingpanel/"
 "indicator-a11y/es/>\n"
 "Language: es\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 3.7.1\n"
+"X-Generator: Weblate 3.9.1\n"
 
 #: src/GreeterWidget.vala:34 src/SessionWidget.vala:46
 msgid "Screen Reader"
@@ -27,25 +27,17 @@ msgstr "Lector de pantalla"
 msgid "Onscreen Keyboard"
 msgstr "Teclado en pantalla"
 
-#: src/Indicator.vala:28
-msgid "Accessibility"
-msgstr "Accesibilidad"
-
-#: src/Indicator.vala:29
-msgid "Accessibility indicator"
-msgstr "Indicador de accesibilidad"
-
 #: src/SessionWidget.vala:28
 msgid "Decrease text size"
-msgstr "Disminuir el tamaño del texto"
+msgstr "Disminuir tamaño del texto"
 
 #: src/SessionWidget.vala:31
 msgid "Default text size"
-msgstr "Tamaño de texto por defecto"
+msgstr "Tamaño de texto predeterminado"
 
 #: src/SessionWidget.vala:34
 msgid "Increase text size"
-msgstr "Aumentar el tamaño del texto"
+msgstr "Aumentar tamaño del texto"
 
 #: src/SessionWidget.vala:50
 msgid "Slow Keys"
@@ -57,11 +49,21 @@ msgstr "Teclas rebotadas"
 
 #: src/SessionWidget.vala:54
 msgid "Sticky Keys"
-msgstr ""
+msgstr "Teclas persistentes"
 
-#: src/SessionWidget.vala:57
+#: src/SessionWidget.vala:56
+msgid "Dwell Click"
+msgstr "Pulsación de permanencia"
+
+#: src/SessionWidget.vala:59
 msgid "Universal Access Settings…"
 msgstr "Configuración de acceso universal…"
+
+#~ msgid "Accessibility"
+#~ msgstr "Accesibilidad"
+
+#~ msgid "Accessibility indicator"
+#~ msgstr "Indicador de accesibilidad"
 
 #~ msgid "HighContrast"
 #~ msgstr "Contraste alto"

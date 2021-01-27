@@ -65,6 +65,8 @@ public class A11Y.SessionWidget : Gtk.Grid {
 
         var sticky_keys = new Wingpanel.Widgets.Switch (_("Sticky Keys"));
 
+        var hover_click = new Wingpanel.Widgets.Switch (_("Dwell Click"));
+
         orientation = Gtk.Orientation.VERTICAL;
         add (font_size_grid);
         add (screen_reader);
@@ -73,6 +75,7 @@ public class A11Y.SessionWidget : Gtk.Grid {
         add (slow_keys);
         add (bounce_keys);
         add (sticky_keys);
+        add (hover_click);
 
         if (server_type == Wingpanel.IndicatorManager.ServerType.SESSION) {
             var settings_button = new Gtk.ModelButton ();
@@ -132,6 +135,9 @@ public class A11Y.SessionWidget : Gtk.Grid {
         keyboard_settings.bind ("bouncekeys-enable", bounce_keys, "active", SettingsBindFlags.DEFAULT);
         keyboard_settings.bind ("slowkeys-enable", slow_keys, "active", SettingsBindFlags.DEFAULT);
         keyboard_settings.bind ("stickykeys-enable", sticky_keys, "active", SettingsBindFlags.DEFAULT);
+
+        var mouse_settings = new Settings ("org.gnome.desktop.a11y.mouse");
+        mouse_settings.bind ("dwell-click-enabled", hover_click, "active", SettingsBindFlags.DEFAULT);
     }
 
     ~SessionWidget () {

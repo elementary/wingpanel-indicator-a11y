@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: a11y-indicator\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-11-06 18:03+0000\n"
+"POT-Creation-Date: 2020-08-26 21:59+0000\n"
 "PO-Revision-Date: 2019-11-19 21:25+0000\n"
 "Last-Translator: Shtonchjo <shtonchjo@gmail.com>\n"
 "Language-Team: Esperanto <https://l10n.elementary.io/projects/wingpanel/"
@@ -26,14 +26,6 @@ msgstr "Ekrana legilo"
 #: src/GreeterWidget.vala:40 src/SessionWidget.vala:48
 msgid "Onscreen Keyboard"
 msgstr "Ekrana klavaro"
-
-#: src/Indicator.vala:28
-msgid "Accessibility"
-msgstr "Faciluzilojn"
-
-#: src/Indicator.vala:29
-msgid "Accessibility indicator"
-msgstr "Faciluzilaj indikiloj"
 
 #: src/SessionWidget.vala:28
 msgid "Decrease text size"
@@ -59,9 +51,19 @@ msgstr "Ripetaj klavoj"
 msgid "Sticky Keys"
 msgstr "Blokitaj klavoj"
 
-#: src/SessionWidget.vala:57
+#: src/SessionWidget.vala:56
+msgid "Dwell Click"
+msgstr ""
+
+#: src/SessionWidget.vala:59
 msgid "Universal Access Settings…"
 msgstr "Universalaj aliraj agordoj…"
+
+#~ msgid "Accessibility"
+#~ msgstr "Faciluzilojn"
+
+#~ msgid "Accessibility indicator"
+#~ msgstr "Faciluzilaj indikiloj"
 
 #~ msgid "HighContrast"
 #~ msgstr "Altkontrasta"
