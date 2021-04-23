@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: a11y-indicator\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-08-26 21:59+0000\n"
-"PO-Revision-Date: 2019-12-04 21:26+0000\n"
+"PO-Revision-Date: 2021-03-03 11:01+0000\n"
 "Last-Translator: Jiri Grönroos <jiri.gronroos@iki.fi>\n"
 "Language-Team: Finnish <https://l10n.elementary.io/projects/wingpanel/"
 "indicator-a11y/fi/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 3.7.1\n"
+"X-Generator: Weblate 4.4.2\n"
 
 #: src/GreeterWidget.vala:34 src/SessionWidget.vala:46
 msgid "Screen Reader"
@@ -53,7 +53,7 @@ msgstr "Pohjaan jäävät näppäimet"
 
 #: src/SessionWidget.vala:56
 msgid "Dwell Click"
-msgstr ""
+msgstr "Napsautus kohdistamalla"
 
 #: src/SessionWidget.vala:59
 msgid "Universal Access Settings…"
