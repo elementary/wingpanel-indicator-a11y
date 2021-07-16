@@ -1,5 +1,11 @@
 wingpanel-indicator-a11y (1.0.0) bionic; urgency=medium
 
+  * no changes since last release.
+
+ -- elementary, Inc. <builds@elementary.io>  Fri, 16 Jul 2021 18:07:56 +0000
+
+wingpanel-indicator-a11y (1.0.0) bionic; urgency=medium
+
   * Initial release.
 
  -- Daniel Foré <daniel@elementary.io>  Tue, 03 Sep 2019 10:53:51 -0700
