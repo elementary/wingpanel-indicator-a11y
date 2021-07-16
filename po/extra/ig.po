@@ -1,0 +1,33 @@
+# Igbo translations for extra package.
+# Copyright (C) 2021 THE extra'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the extra package.
+# Automatically generated, 2021.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: extra\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-07-16 09:42-0700\n"
+"PO-Revision-Date: 2021-07-16 09:42-0700\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: ig\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=ASCII\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: data/a11y.appdata.xml.in:6
+msgid "Accessibility Indicator"
+msgstr ""
+
+#: data/a11y.appdata.xml.in:7
+msgid "Activate accessibility features and settings"
+msgstr ""
+
+#: data/a11y.appdata.xml.in:11
+msgid "Initial Release"
+msgstr ""
+
+#: data/a11y.appdata.xml.in:20
+msgid "elementary, Inc."
+msgstr ""
