@@ -24,6 +24,9 @@ public class A11Y.Indicator : Wingpanel.Indicator {
     public Wingpanel.IndicatorManager.ServerType server_type { get; construct set; }
 
     public Indicator (Wingpanel.IndicatorManager.ServerType indicator_server_type) {
+        GLib.Intl.bindtextdomain (GETTEXT_PACKAGE, LOCALEDIR);
+        GLib.Intl.bind_textdomain_codeset (GETTEXT_PACKAGE, "UTF-8");
+
         Object (code_name: Wingpanel.Indicator.ACCESSIBILITY,
                 server_type: indicator_server_type);
     }
