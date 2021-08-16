@@ -19,6 +19,7 @@ dependencies = [
 shared_module(
     meson.project_name(),
     files,
+    config_file,
     dependencies: dependencies,
     install: true,
     install_dir : wingpanel_indicatorsdir
