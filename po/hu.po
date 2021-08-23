@@ -8,14 +8,16 @@ msgstr ""
 "Project-Id-Version: a11y-indicator\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-08-26 21:59+0000\n"
-"PO-Revision-Date: 2019-06-26 22:46+0200\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2021-08-23 11:52+0000\n"
+"Last-Translator: zoli111 <acszoltan111@gmail.com>\n"
+"Language-Team: Hungarian <https://l10n.elementary.io/projects/wingpanel/"
+"indicator-a11y/hu/>\n"
 "Language: hu\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.4.2\n"
 
 #: src/GreeterWidget.vala:34 src/SessionWidget.vala:46
 msgid "Screen Reader"
@@ -27,7 +29,7 @@ msgstr ""
 
 #: src/SessionWidget.vala:28
 msgid "Decrease text size"
-msgstr ""
+msgstr "Szövegméret csökkentése"
 
 #: src/SessionWidget.vala:31
 msgid "Default text size"
