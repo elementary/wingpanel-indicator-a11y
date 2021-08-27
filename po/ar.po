@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: a11y-indicator\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-08-26 21:59+0000\n"
-"PO-Revision-Date: 2021-08-25 10:29+0000\n"
+"PO-Revision-Date: 2021-08-28 01:44+0000\n"
 "Last-Translator: Muhammad Al-Jayyousi <m7md.j99@protonmail.com>\n"
 "Language-Team: Arabic <https://l10n.elementary.io/projects/wingpanel/"
 "indicator-a11y/ar/>\n"
@@ -42,15 +42,15 @@ msgstr "تكبير حجم الخط"
 
 #: src/SessionWidget.vala:50
 msgid "Slow Keys"
-msgstr "ضغطات أزرار بطيئة"
+msgstr "ضغطات مفاتيح بطيئة"
 
 #: src/SessionWidget.vala:52
 msgid "Bounce Keys"
-msgstr "الأزرار المرتدة"
+msgstr "المفاتيح المرتدة"
 
 #: src/SessionWidget.vala:54
 msgid "Sticky Keys"
-msgstr "الأزرار الثابتة"
+msgstr "المفاتيح الثابتة"
 
 #: src/SessionWidget.vala:56
 msgid "Dwell Click"
