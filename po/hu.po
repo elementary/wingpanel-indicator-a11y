@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: a11y-indicator\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-08-26 21:59+0000\n"
-"PO-Revision-Date: 2021-08-23 19:43+0000\n"
+"PO-Revision-Date: 2021-09-02 21:23+0000\n"
 "Last-Translator: mateszabo2001 <mateszabo2001@gmail.com>\n"
 "Language-Team: Hungarian <https://l10n.elementary.io/projects/wingpanel/"
 "indicator-a11y/hu/>\n"
@@ -29,7 +29,7 @@ msgstr "Képernyőn megjelenő billentyűzet"
 
 #: src/SessionWidget.vala:28
 msgid "Decrease text size"
-msgstr "Szövegméret csökkentése"
+msgstr "Szöveg méretének csökkentése"
 
 #: src/SessionWidget.vala:31
 msgid "Default text size"
