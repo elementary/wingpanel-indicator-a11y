@@ -9,7 +9,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-08-26 21:59+0000\n"
 "PO-Revision-Date: 2021-09-27 14:35+0000\n"
-"Last-Translator: DarkKnightComes <darkknightcomes@gmail.com>\n"
+"Last-Translator: Marcin Serwin <marcin.serwin0@protonmail.com>\n"
 "Language-Team: Polish <https://l10n.elementary.io/projects/wingpanel/"
 "indicator-a11y/pl/>\n"
 "Language: pl\n"
@@ -22,7 +22,7 @@ msgstr ""
 
 #: src/GreeterWidget.vala:34 src/SessionWidget.vala:46
 msgid "Screen Reader"
-msgstr ""
+msgstr "Czytnik ekranu"
 
 #: src/GreeterWidget.vala:40 src/SessionWidget.vala:48
 msgid "Onscreen Keyboard"
