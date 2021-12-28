@@ -8,27 +8,29 @@ msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-07-16 09:42-0700\n"
-"PO-Revision-Date: 2021-07-16 09:42-0700\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2021-12-28 11:04+0000\n"
+"Last-Translator: Yaron Shahrabani <sh.yaron@gmail.com>\n"
+"Language-Team: Hebrew <https://l10n.elementary.io/projects/wingpanel/"
+"a11y-indicator-extra/he/>\n"
 "Language: he\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=ASCII\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Weblate 4.4.2\n"
 
 #: data/a11y.appdata.xml.in:6
 msgid "Accessibility Indicator"
-msgstr ""
+msgstr "מחוון נגישות"
 
 #: data/a11y.appdata.xml.in:7
 msgid "Activate accessibility features and settings"
-msgstr ""
+msgstr "הפעלת יכולות והגדרות נגישות"
 
 #: data/a11y.appdata.xml.in:11
 msgid "Initial Release"
-msgstr ""
+msgstr "מהדורה ראשונית"
 
 #: data/a11y.appdata.xml.in:20
 msgid "elementary, Inc."
-msgstr ""
+msgstr "elementary בע״מ"
