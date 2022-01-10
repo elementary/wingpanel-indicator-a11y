@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-07-16 09:42-0700\n"
-"PO-Revision-Date: 2022-01-10 01:06+0000\n"
+"PO-Revision-Date: 2022-01-10 17:06+0000\n"
 "Last-Translator: p-bo <pavel.borecki@gmail.com>\n"
 "Language-Team: Czech <https://l10n.elementary.io/projects/wingpanel/"
 "a11y-indicator-extra/cs/>\n"
@@ -21,15 +21,15 @@ msgstr ""
 
 #: data/a11y.appdata.xml.in:6
 msgid "Accessibility Indicator"
-msgstr ""
+msgstr "Indikátor pro Zpřístupnění"
 
 #: data/a11y.appdata.xml.in:7
 msgid "Activate accessibility features and settings"
-msgstr ""
+msgstr "Aktivovat funkce a nastavení pro zpřístupnění"
 
 #: data/a11y.appdata.xml.in:11
 msgid "Initial Release"
-msgstr ""
+msgstr "Prvotní vydání"
 
 #: data/a11y.appdata.xml.in:20
 msgid "elementary, Inc."
