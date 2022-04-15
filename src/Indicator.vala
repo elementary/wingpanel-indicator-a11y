@@ -18,7 +18,7 @@
  */
 
 public class A11Y.Indicator : Wingpanel.Indicator {
-    private Wingpanel.Widgets.OverlayIcon panel_icon;
+    private Gtk.Image panel_icon;
     private Gtk.Grid main_grid;
 
     public Wingpanel.IndicatorManager.ServerType server_type { get; construct set; }
@@ -33,7 +33,7 @@ public class A11Y.Indicator : Wingpanel.Indicator {
 
     public override Gtk.Widget get_display_widget () {
         if (panel_icon == null) {
-            panel_icon = new Wingpanel.Widgets.OverlayIcon ("preferences-desktop-accessibility-symbolic");
+            panel_icon = new Gtk.Image.from_icon_name ("preferences-desktop-accessibility-symbolic", Gtk.IconSize.LARGE_TOOLBAR);
 
             if (server_type == Wingpanel.IndicatorManager.ServerType.GREETER) {
                 this.visible = true;
