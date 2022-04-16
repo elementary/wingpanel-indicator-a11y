@@ -43,17 +43,22 @@ public class A11Y.SessionWidget : Gtk.Grid {
         font_size_grid.add (zoom_default_button);
         font_size_grid.add (zoom_in_button);
 
-        var screen_reader = new Wingpanel.Widgets.Switch (_("Screen Reader"));
+        var screen_reader = new Granite.SwitchModelButton (_("Screen Reader"));
 
-        var onscreen_keyboard = new Wingpanel.Widgets.Switch (_("Onscreen Keyboard"));
+        var onscreen_keyboard = new Granite.SwitchModelButton (_("Onscreen Keyboard"));
 
-        var slow_keys = new Wingpanel.Widgets.Switch (_("Slow Keys"));
+        var slow_keys = new Granite.SwitchModelButton (_("Slow Keys"));
 
-        var bounce_keys = new Wingpanel.Widgets.Switch (_("Bounce Keys"));
+        var bounce_keys = new Granite.SwitchModelButton (_("Bounce Keys"));
 
-        var sticky_keys = new Wingpanel.Widgets.Switch (_("Sticky Keys"));
+        var sticky_keys = new Granite.SwitchModelButton (_("Sticky Keys"));
 
-        var hover_click = new Wingpanel.Widgets.Switch (_("Dwell Click"));
+        var hover_click = new Granite.SwitchModelButton (_("Dwell Click"));
+
+        var separator = new Gtk.Separator (Gtk.Orientation.HORIZONTAL) {
+            margin_top = 3,
+            margin_bottom = 3
+        };
 
         var settings_button = new Gtk.ModelButton ();
         settings_button.text = _("Universal Access Settings…");
@@ -66,7 +71,7 @@ public class A11Y.SessionWidget : Gtk.Grid {
         add (bounce_keys);
         add (sticky_keys);
         add (hover_click);
-        add (new Wingpanel.Widgets.Separator ());
+        add (separator);
         add (settings_button);
 
         settings_button.clicked.connect (() => {

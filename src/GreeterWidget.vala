@@ -31,13 +31,17 @@ public class A11Y.GreeterWidget : Gtk.Grid {
         settings.set_boolean ("greeter", "onscreen-keyboard", false);
 
         int position = 0;
-        var screen_reader = new Wingpanel.Widgets.Switch (_("Screen Reader"), false);
+        var screen_reader = new Granite.SwitchModelButton (_("Screen Reader")) {
+            active = false
+        };
         screen_reader.notify["active"].connect (() => {
             toggle_screen_reader (screen_reader.active);
         });
         attach (screen_reader, 0, position++, 1, 1);
 
-        var onscreen_keyboard = new Wingpanel.Widgets.Switch (_("Onscreen Keyboard"), false);
+        var onscreen_keyboard = new Granite.SwitchModelButton (_("Onscreen Keyboard")) {
+            active = false
+        };
         onscreen_keyboard.notify["active"].connect (() => {
             toggle_keyboard (onscreen_keyboard.active);
         });
