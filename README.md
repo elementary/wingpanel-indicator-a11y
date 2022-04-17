@@ -8,7 +8,7 @@
 You'll need the following dependencies:
 
 * meson
-* libgranite-dev
+* libgranite-7-dev
 * libwingpanel-dev
 * valac
 
