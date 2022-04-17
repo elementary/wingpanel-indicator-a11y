@@ -1,8 +1,8 @@
-wingpanel_dep = dependency('wingpanel')
+wingpanel_dep = dependency('wingpanel', version: '>=4.0.0')
 wingpanel_indicatorsdir = wingpanel_dep.get_pkgconfig_variable('indicatorsdir', define_variable: ['libdir', libdir])
 
 files = files(
-    'GreeterWidget.vala',
+    # 'GreeterWidget.vala',
     'Indicator.vala',
     'SessionWidget.vala',
 )
@@ -10,8 +10,8 @@ files = files(
 dependencies = [
     dependency('glib-2.0'),
     dependency('gobject-2.0'),
-    dependency('granite'),
-    dependency('gtk+-3.0'),
+    dependency('granite-7'),
+    dependency('gtk4'),
     meson.get_compiler('vala').find_library('posix'),
     wingpanel_dep
 ]
