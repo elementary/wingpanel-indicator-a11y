@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: a11y-indicator\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-08-26 21:59+0000\n"
-"PO-Revision-Date: 2022-08-05 09:01+0000\n"
+"PO-Revision-Date: 2022-08-06 10:54+0000\n"
 "Last-Translator: Jung-Kyu Park <bagjunggyu@gmail.com>\n"
 "Language-Team: Korean <https://l10n.elementary.io/projects/wingpanel/"
 "indicator-a11y/ko/>\n"
@@ -41,11 +41,11 @@ msgstr "글자 크기 키우기"
 
 #: src/SessionWidget.vala:50
 msgid "Slow Keys"
-msgstr ""
+msgstr "슬로우 키"
 
 #: src/SessionWidget.vala:52
 msgid "Bounce Keys"
-msgstr ""
+msgstr "바운스 키"
 
 #: src/SessionWidget.vala:54
 msgid "Sticky Keys"
@@ -53,7 +53,7 @@ msgstr "고정 키"
 
 #: src/SessionWidget.vala:56
 msgid "Dwell Click"
-msgstr ""
+msgstr "드웰 클릭"
 
 #: src/SessionWidget.vala:59
 msgid "Universal Access Settings…"
