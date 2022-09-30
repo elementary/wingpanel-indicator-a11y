@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: a11y-indicator\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-08-26 21:59+0000\n"
-"PO-Revision-Date: 2021-08-14 00:39+0000\n"
-"Last-Translator: DartDeaDia <DartDeaDia@protonmail.com>\n"
+"PO-Revision-Date: 2022-09-30 09:13+0000\n"
+"Last-Translator: tsitokhtsev2002 <tsitokhtsev2002@gmail.com>\n"
 "Language-Team: Russian <https://l10n.elementary.io/projects/wingpanel/"
 "indicator-a11y/ru/>\n"
 "Language: ru\n"
@@ -42,11 +42,11 @@ msgstr "Увеличить размер текста"
 
 #: src/SessionWidget.vala:50
 msgid "Slow Keys"
-msgstr "Замедленное нажатия клавиш"
+msgstr "Медленные клавиши"
 
 #: src/SessionWidget.vala:52
 msgid "Bounce Keys"
-msgstr "Блокировать повторное нажатие клавиш"
+msgstr "Отскакивающие клавиши"
 
 #: src/SessionWidget.vala:54
 msgid "Sticky Keys"
