@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: a11y-indicator\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-08-26 21:59+0000\n"
+"POT-Creation-Date: 2022-10-14 18:25+0000\n"
 "PO-Revision-Date: 2019-06-26 22:46+0200\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
@@ -22,7 +22,7 @@ msgstr ""
 msgid "Screen Reader"
 msgstr "Onscreen Keyboard"
 
-#: src/GreeterWidget.vala:40 src/SessionWidget.vala:48
+#: src/GreeterWidget.vala:42 src/SessionWidget.vala:48
 msgid "Onscreen Keyboard"
 msgstr "Onscreen Keyboard"
 
@@ -54,7 +54,7 @@ msgstr ""
 msgid "Dwell Click"
 msgstr ""
 
-#: src/SessionWidget.vala:59
+#: src/SessionWidget.vala:64
 msgid "Universal Access Settings…"
 msgstr ""
 

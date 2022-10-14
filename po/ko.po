@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: a11y-indicator\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-08-26 21:59+0000\n"
+"POT-Creation-Date: 2022-10-14 18:25+0000\n"
 "PO-Revision-Date: 2022-08-06 10:54+0000\n"
 "Last-Translator: Jung-Kyu Park <bagjunggyu@gmail.com>\n"
 "Language-Team: Korean <https://l10n.elementary.io/projects/wingpanel/"
@@ -23,7 +23,7 @@ msgstr ""
 msgid "Screen Reader"
 msgstr "스크린 리더"
 
-#: src/GreeterWidget.vala:40 src/SessionWidget.vala:48
+#: src/GreeterWidget.vala:42 src/SessionWidget.vala:48
 msgid "Onscreen Keyboard"
 msgstr "화상 키보드"
 
@@ -55,6 +55,6 @@ msgstr "고정 키"
 msgid "Dwell Click"
 msgstr "드웰 클릭"
 
-#: src/SessionWidget.vala:59
+#: src/SessionWidget.vala:64
 msgid "Universal Access Settings…"
 msgstr "편리한 기능 설정…"

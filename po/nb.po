@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: a11y-indicator\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-08-26 21:59+0000\n"
+"POT-Creation-Date: 2022-10-14 18:25+0000\n"
 "PO-Revision-Date: 2021-01-19 22:57+0000\n"
 "Last-Translator: Allan Nordhøy <epost@anotheragency.no>\n"
 "Language-Team: Norwegian Bokmål <https://l10n.elementary.io/projects/"
@@ -23,7 +23,7 @@ msgstr ""
 msgid "Screen Reader"
 msgstr "Skjermleser"
 
-#: src/GreeterWidget.vala:40 src/SessionWidget.vala:48
+#: src/GreeterWidget.vala:42 src/SessionWidget.vala:48
 msgid "Onscreen Keyboard"
 msgstr "Skjermtastatur"
 
@@ -56,6 +56,6 @@ msgstr "Trege taster"
 msgid "Dwell Click"
 msgstr "Forsinket klikk"
 
-#: src/SessionWidget.vala:59
+#: src/SessionWidget.vala:64
 msgid "Universal Access Settings…"
 msgstr "Universelle tilgangsinnstillinger …"
