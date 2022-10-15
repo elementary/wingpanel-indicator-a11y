@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: a11y-indicator\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-08-26 21:59+0000\n"
+"POT-Creation-Date: 2022-10-14 18:25+0000\n"
 "PO-Revision-Date: 2022-01-10 17:06+0000\n"
 "Last-Translator: Michal Grňo <m93a.cz@gmail.com>\n"
 "Language-Team: Czech <https://l10n.elementary.io/projects/wingpanel/"
@@ -23,7 +23,7 @@ msgstr ""
 msgid "Screen Reader"
 msgstr "Čtečka obrazovky"
 
-#: src/GreeterWidget.vala:40 src/SessionWidget.vala:48
+#: src/GreeterWidget.vala:42 src/SessionWidget.vala:48
 msgid "Onscreen Keyboard"
 msgstr "Klávesnice na obrazovce"
 
@@ -55,7 +55,7 @@ msgstr "Klávesové zkratky jedním prstem"
 msgid "Dwell Click"
 msgstr "Kliknutí setrváním"
 
-#: src/SessionWidget.vala:59
+#: src/SessionWidget.vala:64
 msgid "Universal Access Settings…"
 msgstr "Nastavení zpřístupnění pro hendikepované…"
 

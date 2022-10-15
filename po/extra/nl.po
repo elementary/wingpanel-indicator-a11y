@@ -7,11 +7,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-07-16 09:42-0700\n"
+"POT-Creation-Date: 2022-10-14 18:25+0000\n"
 "PO-Revision-Date: 2022-01-13 21:09+0000\n"
 "Last-Translator: Dennis ten Hoove <dennistenhoove@protonmail.com>\n"
-"Language-Team: Dutch <https://l10n.elementary.io/projects/wingpanel/"
-"a11y-indicator-extra/nl/>\n"
+"Language-Team: Dutch <https://l10n.elementary.io/projects/wingpanel/a11y-"
+"indicator-extra/nl/>\n"
 "Language: nl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -28,9 +28,13 @@ msgid "Activate accessibility features and settings"
 msgstr "Functionaliteit en instellingen voor toegankelijkheid inschakelen"
 
 #: data/a11y.appdata.xml.in:11
+msgid "Updated translations"
+msgstr ""
+
+#: data/a11y.appdata.xml.in:17
 msgid "Initial Release"
 msgstr "Initiële Uitgaven"
 
-#: data/a11y.appdata.xml.in:20
+#: data/a11y.appdata.xml.in:26
 msgid "elementary, Inc."
 msgstr "elementary, Inc."

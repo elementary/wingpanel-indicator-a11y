@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: a11y-indicator\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-08-26 21:59+0000\n"
+"POT-Creation-Date: 2022-10-14 18:25+0000\n"
 "PO-Revision-Date: 2020-08-28 13:13+0000\n"
 "Last-Translator: David M <rbndavid@gmail.com>\n"
 "Language-Team: Catalan <https://l10n.elementary.io/projects/wingpanel/"
@@ -23,7 +23,7 @@ msgstr ""
 msgid "Screen Reader"
 msgstr "Lector de pantalla"
 
-#: src/GreeterWidget.vala:40 src/SessionWidget.vala:48
+#: src/GreeterWidget.vala:42 src/SessionWidget.vala:48
 msgid "Onscreen Keyboard"
 msgstr "Teclat de pantalla"
 
@@ -55,7 +55,7 @@ msgstr "Tecles enganxoses"
 msgid "Dwell Click"
 msgstr "Clic en aturar-s'hi"
 
-#: src/SessionWidget.vala:59
+#: src/SessionWidget.vala:64
 msgid "Universal Access Settings…"
 msgstr "Configuració de l'accés universal…"
 
