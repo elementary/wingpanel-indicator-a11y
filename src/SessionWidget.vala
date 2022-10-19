@@ -17,31 +17,31 @@
  * Boston, MA 02110-1301 USA.
  */
 
-public class A11Y.SessionWidget : Gtk.Grid {
+public class A11Y.SessionWidget : Gtk.Box {
     private Gtk.Button zoom_default_button;
     private Gtk.Button zoom_in_button;
     private Gtk.Button zoom_out_button;
     private Settings interface_settings;
 
     construct {
-        zoom_out_button = new Gtk.Button.from_icon_name ("zoom-out-symbolic", Gtk.IconSize.MENU);
+        zoom_out_button = new Gtk.Button.from_icon_name ("zoom-out-symbolic");
         zoom_out_button.tooltip_text = _("Decrease text size");
 
         zoom_default_button = new Gtk.Button.with_label ("100%");
         zoom_default_button.tooltip_text = _("Default text size");
 
-        zoom_in_button = new Gtk.Button.from_icon_name ("zoom-in-symbolic", Gtk.IconSize.MENU);
+        zoom_in_button = new Gtk.Button.from_icon_name ("zoom-in-symbolic");
         zoom_in_button.tooltip_text = _("Increase text size");
 
-        var font_size_grid = new Gtk.Grid ();
-        font_size_grid.column_homogeneous = true;
+        var font_size_grid = new Gtk.Box (Gtk.Orientation.HORIZONTAL, 0);
+        font_size_grid.homogeneous = true;
         font_size_grid.hexpand = true;
-        font_size_grid.margin = 12;
+        font_size_grid.margin_start = font_size_grid.margin_end = 12;
         font_size_grid.margin_bottom = font_size_grid.margin_top = 6;
-        font_size_grid.get_style_context ().add_class (Gtk.STYLE_CLASS_LINKED);
-        font_size_grid.add (zoom_out_button);
-        font_size_grid.add (zoom_default_button);
-        font_size_grid.add (zoom_in_button);
+        font_size_grid.get_style_context ().add_class (Granite.STYLE_CLASS_LINKED);
+        font_size_grid.append (zoom_out_button);
+        font_size_grid.append (zoom_default_button);
+        font_size_grid.append (zoom_in_button);
 
         var screen_reader = new Granite.SwitchModelButton (_("Screen Reader"));
 
@@ -60,19 +60,18 @@ public class A11Y.SessionWidget : Gtk.Grid {
             margin_bottom = 3
         };
 
-        var settings_button = new Gtk.ModelButton ();
-        settings_button.text = _("Universal Access Settings…");
+        var settings_button = new Gtk.Button.with_label (_("Universal Access Settings…"));
 
         orientation = Gtk.Orientation.VERTICAL;
-        add (font_size_grid);
-        add (screen_reader);
-        add (onscreen_keyboard);
-        add (slow_keys);
-        add (bounce_keys);
-        add (sticky_keys);
-        add (hover_click);
-        add (separator);
-        add (settings_button);
+        append (font_size_grid);
+        append (screen_reader);
+        append (onscreen_keyboard);
+        append (slow_keys);
+        append (bounce_keys);
+        append (sticky_keys);
+        append (hover_click);
+        append (separator);
+        append (settings_button);
 
         settings_button.clicked.connect (() => {
             try {

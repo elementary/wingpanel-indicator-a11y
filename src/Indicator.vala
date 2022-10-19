@@ -19,7 +19,7 @@
 
 public class A11Y.Indicator : Wingpanel.Indicator {
     private Gtk.Image panel_icon;
-    private Gtk.Grid main_grid;
+    private Gtk.Widget main_widget;
 
     public Wingpanel.IndicatorManager.ServerType server_type { get; construct set; }
 
@@ -33,7 +33,7 @@ public class A11Y.Indicator : Wingpanel.Indicator {
 
     public override Gtk.Widget get_display_widget () {
         if (panel_icon == null) {
-            panel_icon = new Gtk.Image.from_icon_name ("preferences-desktop-accessibility-symbolic", Gtk.IconSize.LARGE_TOOLBAR);
+            panel_icon = new Gtk.Image.from_icon_name ("preferences-desktop-accessibility-symbolic");
 
             if (server_type == Wingpanel.IndicatorManager.ServerType.GREETER) {
                 this.visible = true;
@@ -47,15 +47,15 @@ public class A11Y.Indicator : Wingpanel.Indicator {
     }
 
     public override Gtk.Widget? get_widget () {
-        if (main_grid == null) {
+        if (main_widget == null) {
             if (server_type == Wingpanel.IndicatorManager.ServerType.GREETER) {
-                main_grid = new GreeterWidget ();
+                //  main_widget = new GreeterWidget ();
             } else {
-                main_grid = new SessionWidget ();
+                main_widget = new SessionWidget ();
             }
         }
 
-        return main_grid;
+        return main_widget;
     }
 
     public override void opened () {
