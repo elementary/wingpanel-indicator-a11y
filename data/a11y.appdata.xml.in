@@ -6,7 +6,7 @@
   <name>Accessibility Indicator</name>
   <summary>Activate accessibility features and settings</summary>
   <releases>
-    <release version="1.0.1" date="2022-10-14" urgency="medium">
+    <release version="1.0.1" date="2022-10-15" urgency="medium">
       <description>
         <p>Updated translations</p>
       </description>
