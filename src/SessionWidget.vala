@@ -102,6 +102,7 @@ public class A11Y.SessionWidget : Gtk.Grid {
 
         interface_settings = new Settings ("org.gnome.desktop.interface");
         interface_settings.changed["text-scaling-factor"].connect (update_zoom_buttons);
+        update_zoom_buttons ();
 
         var keyboard_settings = new Settings ("org.gnome.desktop.a11y.keyboard");
         keyboard_settings.bind ("bouncekeys-enable", bounce_keys, "active", SettingsBindFlags.DEFAULT);
