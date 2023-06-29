@@ -31,13 +31,11 @@ public class A11Y.GreeterWidget : Gtk.Grid {
         settings.set_boolean ("greeter", "onscreen-keyboard", false);
 
         int position = 0;
-        var screen_reader = new Granite.SwitchModelButton (_("Screen Reader")) {
-            active = false
-        };
-        screen_reader.notify["active"].connect (() => {
-            toggle_screen_reader (screen_reader.active);
-        });
+        var screen_reader = new Granite.SwitchModelButton (_("Screen Reader"));
         attach (screen_reader, 0, position++, 1, 1);
+
+        var applications_settings = new Settings ("org.gnome.desktop.a11y.applications");
+        applications_settings.bind ("screen-reader-enabled", screen_reader, "active", SettingsBindFlags.DEFAULT);
 
         var onscreen_keyboard = new Granite.SwitchModelButton (_("Onscreen Keyboard")) {
             active = false
@@ -61,22 +59,6 @@ public class A11Y.GreeterWidget : Gtk.Grid {
         }
 
         if (reader_pid != 0) {
-            Posix.kill (reader_pid, Posix.Signal.KILL);
-            Posix.waitpid (reader_pid, out status, 0);
-            reader_pid = 0;
-        }
-    }
-
-    private void toggle_screen_reader (bool active) {
-        if (active) {
-            try {
-                string[] argv;
-                Shell.parse_argv ("orca --replace", out argv);
-                Process.spawn_async (null, argv, null, SpawnFlags.SEARCH_PATH, null, out reader_pid);
-            } catch (Error e) {
-                warning (e.message);
-            }
-        } else {
             Posix.kill (reader_pid, Posix.Signal.KILL);
             Posix.waitpid (reader_pid, out status, 0);
             reader_pid = 0;
