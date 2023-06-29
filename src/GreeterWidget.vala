@@ -56,7 +56,7 @@ public class A11Y.GreeterWidget : Gtk.Grid {
             Posix.kill (keyboard_pid, Posix.Signal.KILL);
             Posix.waitpid (keyboard_pid, out status, 0);
             keyboard_pid = 0;
-        }   
+        }
 
         if (reader_pid != 0) {
             Posix.kill (reader_pid, Posix.Signal.KILL);
