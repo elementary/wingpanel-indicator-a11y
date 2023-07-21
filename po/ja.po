@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: a11y-indicator\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-10-14 18:25+0000\n"
+"POT-Creation-Date: 2023-07-21 21:33+0000\n"
 "PO-Revision-Date: 2020-08-28 13:13+0000\n"
 "Last-Translator: Ryo Nakano <ryonakaknock3@gmail.com>\n"
 "Language-Team: Japanese <https://l10n.elementary.io/projects/wingpanel/"
@@ -23,7 +23,7 @@ msgstr ""
 msgid "Screen Reader"
 msgstr "スクリーンリーダー"
 
-#: src/GreeterWidget.vala:42 src/SessionWidget.vala:48
+#: src/GreeterWidget.vala:40 src/SessionWidget.vala:48
 msgid "Onscreen Keyboard"
 msgstr "オンスクリーンキーボード"
 
