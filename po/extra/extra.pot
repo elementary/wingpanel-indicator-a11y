@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-10-14 18:25+0000\n"
+"POT-Creation-Date: 2023-07-21 21:33+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,22 +17,22 @@ msgstr ""
 "Content-Type: text/plain; charset=CHARSET\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: data/a11y.appdata.xml.in:6
+#: data/a11y.metainfo.xml.in:11
 msgid "Accessibility Indicator"
 msgstr ""
 
-#: data/a11y.appdata.xml.in:7
+#: data/a11y.metainfo.xml.in:12
 msgid "Activate accessibility features and settings"
 msgstr ""
 
-#: data/a11y.appdata.xml.in:11
+#: data/a11y.metainfo.xml.in:26
+msgid "elementary, Inc."
+msgstr ""
+
+#: data/a11y.metainfo.xml.in:33
 msgid "Updated translations"
 msgstr ""
 
-#: data/a11y.appdata.xml.in:17
+#: data/a11y.metainfo.xml.in:39
 msgid "Initial Release"
-msgstr ""
-
-#: data/a11y.appdata.xml.in:26
-msgid "elementary, Inc."
 msgstr ""
