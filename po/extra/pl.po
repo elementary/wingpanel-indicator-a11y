@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-07-21 21:33+0000\n"
+"POT-Creation-Date: 2023-07-21 21:39+0000\n"
 "PO-Revision-Date: 2022-10-16 10:20+0000\n"
 "Last-Translator: Marcin Serwin <marcin.serwin0@protonmail.com>\n"
 "Language-Team: Polish <https://l10n.elementary.io/projects/wingpanel/a11y-"
@@ -33,9 +33,17 @@ msgid "elementary, Inc."
 msgstr "elementary, Inc."
 
 #: data/a11y.metainfo.xml.in:33
+msgid "Set the correct text size on startup"
+msgstr ""
+
+#: data/a11y.metainfo.xml.in:34
+msgid "Sync screen reader status accurately on the Login &amp; Lock screen"
+msgstr ""
+
+#: data/a11y.metainfo.xml.in:35 data/a11y.metainfo.xml.in:41
 msgid "Updated translations"
 msgstr "Zaktualizowano tłumaczenia"
 
-#: data/a11y.metainfo.xml.in:39
+#: data/a11y.metainfo.xml.in:47
 msgid "Initial Release"
 msgstr "Wstępne wydanie"
