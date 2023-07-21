@@ -7,11 +7,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-10-14 18:25+0000\n"
+"POT-Creation-Date: 2023-07-21 21:33+0000\n"
 "PO-Revision-Date: 2022-10-20 12:57+0000\n"
 "Last-Translator: Yaron Shahrabani <sh.yaron@gmail.com>\n"
-"Language-Team: Hebrew <https://l10n.elementary.io/projects/wingpanel/"
-"a11y-indicator-extra/he/>\n"
+"Language-Team: Hebrew <https://l10n.elementary.io/projects/wingpanel/a11y-"
+"indicator-extra/he/>\n"
 "Language: he\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -19,22 +19,22 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Weblate 4.4.2\n"
 
-#: data/a11y.appdata.xml.in:6
+#: data/a11y.metainfo.xml.in:11
 msgid "Accessibility Indicator"
 msgstr "מחוון נגישות"
 
-#: data/a11y.appdata.xml.in:7
+#: data/a11y.metainfo.xml.in:12
 msgid "Activate accessibility features and settings"
 msgstr "הפעלת יכולות והגדרות נגישות"
 
-#: data/a11y.appdata.xml.in:11
+#: data/a11y.metainfo.xml.in:26
+msgid "elementary, Inc."
+msgstr "elementary בע״מ"
+
+#: data/a11y.metainfo.xml.in:33
 msgid "Updated translations"
 msgstr "עודכנו התרגומים"
 
-#: data/a11y.appdata.xml.in:17
+#: data/a11y.metainfo.xml.in:39
 msgid "Initial Release"
 msgstr "מהדורה ראשונית"
-
-#: data/a11y.appdata.xml.in:26
-msgid "elementary, Inc."
-msgstr "elementary בע״מ"

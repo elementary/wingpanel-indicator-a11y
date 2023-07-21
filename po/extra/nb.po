@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-10-14 18:25+0000\n"
+"POT-Creation-Date: 2023-07-21 21:33+0000\n"
 "PO-Revision-Date: 2023-03-02 10:25+0000\n"
 "Last-Translator: Allan Nordhøy <epost@anotheragency.no>\n"
 "Language-Team: Norwegian Bokmål <https://l10n.elementary.io/projects/"
@@ -19,22 +19,22 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Weblate 4.14.2\n"
 
-#: data/a11y.appdata.xml.in:6
+#: data/a11y.metainfo.xml.in:11
 msgid "Accessibility Indicator"
 msgstr "Tilgjengelighetsindikator"
 
-#: data/a11y.appdata.xml.in:7
+#: data/a11y.metainfo.xml.in:12
 msgid "Activate accessibility features and settings"
 msgstr "Aktiver tilgjengelighetsfunksjoner og innstillinger"
 
-#: data/a11y.appdata.xml.in:11
+#: data/a11y.metainfo.xml.in:26
+msgid "elementary, Inc."
+msgstr "elementary, Inc."
+
+#: data/a11y.metainfo.xml.in:33
 msgid "Updated translations"
 msgstr "Oppdaterte oversettelser"
 
-#: data/a11y.appdata.xml.in:17
+#: data/a11y.metainfo.xml.in:39
 msgid "Initial Release"
 msgstr "Opprinnelig utgave"
-
-#: data/a11y.appdata.xml.in:26
-msgid "elementary, Inc."
-msgstr "elementary, Inc."

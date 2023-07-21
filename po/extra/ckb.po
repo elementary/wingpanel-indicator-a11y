@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-10-14 18:25+0000\n"
+"POT-Creation-Date: 2023-07-21 21:33+0000\n"
 "PO-Revision-Date: 2022-09-21 06:14+0000\n"
 "Last-Translator: Aga Ismael <agaesmaeel@gmail.com>\n"
 "Language-Team: Kurdish (Central) <https://l10n.elementary.io/projects/"
@@ -19,22 +19,22 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Weblate 4.4.2\n"
 
-#: data/a11y.appdata.xml.in:6
+#: data/a11y.metainfo.xml.in:11
 msgid "Accessibility Indicator"
 msgstr "نیشاندەری دەستڕاگەیشتن"
 
-#: data/a11y.appdata.xml.in:7
+#: data/a11y.metainfo.xml.in:12
 msgid "Activate accessibility features and settings"
 msgstr "چالاککردنی تایبەتمەندی و ڕێکخستنەکانی دەستڕاگەیشتن"
 
-#: data/a11y.appdata.xml.in:11
+#: data/a11y.metainfo.xml.in:26
+msgid "elementary, Inc."
+msgstr "کۆمپانیای هاوبەشی ئێلیمێنتری."
+
+#: data/a11y.metainfo.xml.in:33
 msgid "Updated translations"
 msgstr ""
 
-#: data/a11y.appdata.xml.in:17
+#: data/a11y.metainfo.xml.in:39
 msgid "Initial Release"
 msgstr "بڵاوکردنەوەی سەرەتایی"
-
-#: data/a11y.appdata.xml.in:26
-msgid "elementary, Inc."
-msgstr "کۆمپانیای هاوبەشی ئێلیمێنتری."
