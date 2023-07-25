@@ -13,7 +13,7 @@
 
   <screenshots>
     <screenshot type="default">
-      <image>https://raw.githubusercontent.com/elementary/wingpanel-indicator-a11y/master/data/screenshot.png</image>
+      <image>https://raw.githubusercontent.com/elementary/wingpanel-indicator-a11y/1.0.2/data/screenshot.png</image>
     </screenshot>
   </screenshots>
 
@@ -28,7 +28,7 @@
   <update_contact>contact_at_elementary.io</update_contact>
 
   <releases>
-    <release version="1.0.2" date="2023-07-20" urgency="medium">
+    <release version="1.0.2" date="2023-07-25" urgency="medium">
       <description>
         <p>Set the correct text size on startup</p>
         <p>Sync screen reader status accurately on the Login &amp; Lock screen</p>
