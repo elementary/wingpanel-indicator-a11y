@@ -7,17 +7,17 @@ msgid ""
 msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-07-21 21:33+0000\n"
-"PO-Revision-Date: 2022-10-20 12:57+0000\n"
+"POT-Creation-Date: 2023-07-21 21:39+0000\n"
+"PO-Revision-Date: 2023-07-24 07:07+0000\n"
 "Last-Translator: Yaron Shahrabani <sh.yaron@gmail.com>\n"
-"Language-Team: Hebrew <https://l10n.elementary.io/projects/wingpanel/a11y-"
-"indicator-extra/he/>\n"
+"Language-Team: Hebrew <https://l10n.elementary.io/projects/wingpanel/"
+"a11y-indicator-extra/he/>\n"
 "Language: he\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Weblate 4.4.2\n"
+"X-Generator: Weblate 4.17\n"
 
 #: data/a11y.metainfo.xml.in:11
 msgid "Accessibility Indicator"
@@ -32,9 +32,17 @@ msgid "elementary, Inc."
 msgstr "elementary בע״מ"
 
 #: data/a11y.metainfo.xml.in:33
+msgid "Set the correct text size on startup"
+msgstr "גודל הטקסט הנכון מוגדר בהתחלה"
+
+#: data/a11y.metainfo.xml.in:34
+msgid "Sync screen reader status accurately on the Login &amp; Lock screen"
+msgstr "מצב מקריא המסך מסונכרן במדויק במסך כניסה ונעילה"
+
+#: data/a11y.metainfo.xml.in:35 data/a11y.metainfo.xml.in:41
 msgid "Updated translations"
 msgstr "עודכנו התרגומים"
 
-#: data/a11y.metainfo.xml.in:39
+#: data/a11y.metainfo.xml.in:47
 msgid "Initial Release"
 msgstr "מהדורה ראשונית"
