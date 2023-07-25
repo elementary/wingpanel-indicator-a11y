@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-07-21 21:39+0000\n"
-"PO-Revision-Date: 2023-03-02 10:25+0000\n"
+"PO-Revision-Date: 2023-07-26 20:07+0000\n"
 "Last-Translator: Allan Nordhøy <epost@anotheragency.no>\n"
 "Language-Team: Norwegian Bokmål <https://l10n.elementary.io/projects/"
 "wingpanel/a11y-indicator-extra/nb/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.14.2\n"
+"X-Generator: Weblate 4.17\n"
 
 #: data/a11y.metainfo.xml.in:11
 msgid "Accessibility Indicator"
@@ -33,11 +33,12 @@ msgstr "elementary, Inc."
 
 #: data/a11y.metainfo.xml.in:33
 msgid "Set the correct text size on startup"
-msgstr ""
+msgstr "Korrekt tekststørrelse ved oppstart"
 
 #: data/a11y.metainfo.xml.in:34
+#, fuzzy
 msgid "Sync screen reader status accurately on the Login &amp; Lock screen"
-msgstr ""
+msgstr "Nøyaktig synkronisering av skjermleserstatus i «Innlogging og lås»."
 
 #: data/a11y.metainfo.xml.in:35 data/a11y.metainfo.xml.in:41
 msgid "Updated translations"
