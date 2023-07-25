@@ -1,3 +1,9 @@
+wingpanel-indicator-a11y (1.0.2) jammy; urgency=medium
+
+  * Release 1.0.2
+
+ -- Danielle Fore <danielle@elementary.io>  Tue, 25 Jul 2023 10:37:29 -0700
+
 wingpanel-indicator-a11y (1.0.1) bionic; urgency=medium
 
   * Release 1.0.1 (#51)
