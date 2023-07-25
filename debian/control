@@ -14,7 +14,7 @@ Homepage: https://github.com/elementary/wingpanel-indicator-a11y
 
 Package: wingpanel-indicator-a11y
 Architecture: any
-Depends: ${misc:Depends}, ${shlibs:Depends}
+Depends: io.elementary.greeter (>= 7.0.0), ${misc:Depends}, ${shlibs:Depends}
 Enhances: wingpanel
 Description: WingPanel A11y Indicator
  WingPanel a11y Indicator
