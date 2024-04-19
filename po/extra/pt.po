@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-07-21 21:39+0000\n"
-"PO-Revision-Date: 2022-10-20 12:57+0000\n"
+"PO-Revision-Date: 2024-04-19 23:33+0000\n"
 "Last-Translator: Hugo Carvalho <hugokarvalho@hotmail.com>\n"
 "Language-Team: Portuguese <https://l10n.elementary.io/projects/wingpanel/"
 "a11y-indicator-extra/pt/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.4.2\n"
+"X-Generator: Weblate 5.0.2\n"
 
 #: data/a11y.metainfo.xml.in:11
 msgid "Accessibility Indicator"
@@ -33,11 +33,13 @@ msgstr "elementary, Inc."
 
 #: data/a11y.metainfo.xml.in:33
 msgid "Set the correct text size on startup"
-msgstr ""
+msgstr "Definir o tamanho correto do texto no arranque"
 
 #: data/a11y.metainfo.xml.in:34
 msgid "Sync screen reader status accurately on the Login &amp; Lock screen"
 msgstr ""
+"Sincronizar com precisão o estado do leitor de ecrã no ecrã de início e "
+"bloquear sessão"
 
 #: data/a11y.metainfo.xml.in:35 data/a11y.metainfo.xml.in:41
 msgid "Updated translations"
