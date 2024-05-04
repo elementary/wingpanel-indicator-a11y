@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-07-21 21:39+0000\n"
+"POT-Creation-Date: 2024-05-04 04:50+0000\n"
 "PO-Revision-Date: 2022-02-05 20:44+0000\n"
 "Last-Translator: JohnDumpling <john_dumpling@protonmail.com>\n"
 "Language-Team: Slovak <https://l10n.elementary.io/projects/wingpanel/a11y-"
@@ -27,22 +27,21 @@ msgstr "Indikátor prístupnosti"
 msgid "Activate accessibility features and settings"
 msgstr "Aktivujte funkcie a nastavenia prístupnosti"
 
-#: data/a11y.metainfo.xml.in:26
-msgid "elementary, Inc."
-msgstr "elementary, Inc."
-
-#: data/a11y.metainfo.xml.in:33
+#: data/a11y.metainfo.xml.in:35
 msgid "Set the correct text size on startup"
 msgstr ""
 
-#: data/a11y.metainfo.xml.in:34
+#: data/a11y.metainfo.xml.in:36
 msgid "Sync screen reader status accurately on the Login &amp; Lock screen"
 msgstr ""
 
-#: data/a11y.metainfo.xml.in:35 data/a11y.metainfo.xml.in:41
+#: data/a11y.metainfo.xml.in:37 data/a11y.metainfo.xml.in:43
 msgid "Updated translations"
 msgstr ""
 
-#: data/a11y.metainfo.xml.in:47
+#: data/a11y.metainfo.xml.in:49
 msgid "Initial Release"
 msgstr "Prvotné vydanie"
+
+#~ msgid "elementary, Inc."
+#~ msgstr "elementary, Inc."

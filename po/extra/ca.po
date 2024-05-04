@@ -7,11 +7,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-07-21 21:39+0000\n"
+"POT-Creation-Date: 2024-05-04 04:50+0000\n"
 "PO-Revision-Date: 2023-07-25 09:07+0000\n"
 "Last-Translator: David M <rbndavid@gmail.com>\n"
-"Language-Team: Catalan <https://l10n.elementary.io/projects/wingpanel/"
-"a11y-indicator-extra/ca/>\n"
+"Language-Team: Catalan <https://l10n.elementary.io/projects/wingpanel/a11y-"
+"indicator-extra/ca/>\n"
 "Language: ca\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -27,24 +27,23 @@ msgstr "Indicador d'accessibilitat"
 msgid "Activate accessibility features and settings"
 msgstr "Activa les funcions i la configuració d'accessibilitat"
 
-#: data/a11y.metainfo.xml.in:26
-msgid "elementary, Inc."
-msgstr "elementary, Inc."
-
-#: data/a11y.metainfo.xml.in:33
+#: data/a11y.metainfo.xml.in:35
 msgid "Set the correct text size on startup"
 msgstr "Estableix la mida de text correcta a l'inici"
 
-#: data/a11y.metainfo.xml.in:34
+#: data/a11y.metainfo.xml.in:36
 msgid "Sync screen reader status accurately on the Login &amp; Lock screen"
 msgstr ""
 "Sincronitza l'estat del lector de pantalla amb precisió a Inici de sessió i "
 "a la pantalla de bloqueig"
 
-#: data/a11y.metainfo.xml.in:35 data/a11y.metainfo.xml.in:41
+#: data/a11y.metainfo.xml.in:37 data/a11y.metainfo.xml.in:43
 msgid "Updated translations"
 msgstr "Traduccions actualitzades"
 
-#: data/a11y.metainfo.xml.in:47
+#: data/a11y.metainfo.xml.in:49
 msgid "Initial Release"
 msgstr "Versió inicial"
+
+#~ msgid "elementary, Inc."
+#~ msgstr "elementary, Inc."

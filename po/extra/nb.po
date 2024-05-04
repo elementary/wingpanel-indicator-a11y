@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-07-21 21:39+0000\n"
+"POT-Creation-Date: 2024-05-04 04:50+0000\n"
 "PO-Revision-Date: 2023-07-26 20:07+0000\n"
 "Last-Translator: Allan Nordhøy <epost@anotheragency.no>\n"
 "Language-Team: Norwegian Bokmål <https://l10n.elementary.io/projects/"
@@ -27,23 +27,22 @@ msgstr "Tilgjengelighetsindikator"
 msgid "Activate accessibility features and settings"
 msgstr "Aktiver tilgjengelighetsfunksjoner og innstillinger"
 
-#: data/a11y.metainfo.xml.in:26
-msgid "elementary, Inc."
-msgstr "elementary, Inc."
-
-#: data/a11y.metainfo.xml.in:33
+#: data/a11y.metainfo.xml.in:35
 msgid "Set the correct text size on startup"
 msgstr "Korrekt tekststørrelse ved oppstart"
 
-#: data/a11y.metainfo.xml.in:34
+#: data/a11y.metainfo.xml.in:36
 #, fuzzy
 msgid "Sync screen reader status accurately on the Login &amp; Lock screen"
 msgstr "Nøyaktig synkronisering av skjermleserstatus i «Innlogging og lås»."
 
-#: data/a11y.metainfo.xml.in:35 data/a11y.metainfo.xml.in:41
+#: data/a11y.metainfo.xml.in:37 data/a11y.metainfo.xml.in:43
 msgid "Updated translations"
 msgstr "Oppdaterte oversettelser"
 
-#: data/a11y.metainfo.xml.in:47
+#: data/a11y.metainfo.xml.in:49
 msgid "Initial Release"
 msgstr "Opprinnelig utgave"
+
+#~ msgid "elementary, Inc."
+#~ msgstr "elementary, Inc."

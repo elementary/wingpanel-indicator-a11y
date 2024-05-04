@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-07-21 21:39+0000\n"
+"POT-Creation-Date: 2024-05-04 04:50+0000\n"
 "PO-Revision-Date: 2024-04-19 23:33+0000\n"
 "Last-Translator: Hugo Carvalho <hugokarvalho@hotmail.com>\n"
 "Language-Team: Portuguese <https://l10n.elementary.io/projects/wingpanel/"
@@ -27,24 +27,23 @@ msgstr "Indicador de Acessibilidade"
 msgid "Activate accessibility features and settings"
 msgstr "Ativar funcionalidades e definições de acessibilidade"
 
-#: data/a11y.metainfo.xml.in:26
-msgid "elementary, Inc."
-msgstr "elementary, Inc."
-
-#: data/a11y.metainfo.xml.in:33
+#: data/a11y.metainfo.xml.in:35
 msgid "Set the correct text size on startup"
 msgstr "Definir o tamanho correto do texto no arranque"
 
-#: data/a11y.metainfo.xml.in:34
+#: data/a11y.metainfo.xml.in:36
 msgid "Sync screen reader status accurately on the Login &amp; Lock screen"
 msgstr ""
 "Sincronizar com precisão o estado do leitor de ecrã no ecrã de início e "
 "bloquear sessão"
 
-#: data/a11y.metainfo.xml.in:35 data/a11y.metainfo.xml.in:41
+#: data/a11y.metainfo.xml.in:37 data/a11y.metainfo.xml.in:43
 msgid "Updated translations"
 msgstr "Traduções atualizadas"
 
-#: data/a11y.metainfo.xml.in:47
+#: data/a11y.metainfo.xml.in:49
 msgid "Initial Release"
 msgstr "Lançamento inicial"
+
+#~ msgid "elementary, Inc."
+#~ msgstr "elementary, Inc."
