@@ -1,0 +1,41 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the extra package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: extra\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-05-04 04:50+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: pap\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: data/a11y.metainfo.xml.in:11
+msgid "Accessibility Indicator"
+msgstr ""
+
+#: data/a11y.metainfo.xml.in:12
+msgid "Activate accessibility features and settings"
+msgstr ""
+
+#: data/a11y.metainfo.xml.in:35
+msgid "Set the correct text size on startup"
+msgstr ""
+
+#: data/a11y.metainfo.xml.in:36
+msgid "Sync screen reader status accurately on the Login &amp; Lock screen"
+msgstr ""
+
+#: data/a11y.metainfo.xml.in:37 data/a11y.metainfo.xml.in:43
+msgid "Updated translations"
+msgstr ""
+
+#: data/a11y.metainfo.xml.in:49
+msgid "Initial Release"
+msgstr ""
